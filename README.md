@@ -1,4 +1,4 @@
-# React-The-Complete-Guide-2023
+# Jeff Hwang - Personal Website
 
 <!-- Icon sections -->
 
