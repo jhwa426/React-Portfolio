@@ -5,6 +5,7 @@ import LogoJ from '../../assets/images/letter-j.png';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders'
 
 import Logo from './Logo';
 
@@ -23,37 +24,40 @@ const Home = () => {
 
 
     return (
-        <div className='container home-page'>
-            <div className='text-zone'>
-                <h1>
-                    <span className={letterClass}>H</span>
-                    <span className={`${letterClass} _12`}>e</span>
-                    <span className={`${letterClass} _12`}>l</span>
-                    <span className={`${letterClass} _12`}>l</span>
-                    <span className={`${letterClass} _12`}>o</span>
-                    <span className={`${letterClass} _12`}>,</span>
+        <div>
+            <div className='container home-page'>
+                <div className='text-zone'>
+                    <h1>
+                        <span className={letterClass}>H</span>
+                        <span className={`${letterClass} _12`}>e</span>
+                        <span className={`${letterClass} _12`}>l</span>
+                        <span className={`${letterClass} _12`}>l</span>
+                        <span className={`${letterClass} _12`}>o</span>
+                        <span className={`${letterClass} _12`}>,</span>
 
-                    <br />
-                    <span className={`${letterClass} _13`}>I</span>
-                    <span className={`${letterClass} _14`}>'m</span>
+                        <br />
+                        <span className={`${letterClass} _13`}>I</span>
+                        <span className={`${letterClass} _14`}>'m</span>
 
-                    <img src={LogoJ} alt='developer' />
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={nameArray}
-                        idx={15}
-                    />
-                    <br />
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={jobArray}
-                        idx={22}
-                    />
-                </h1>
-                <h2>Student / Frontend Developer</h2>
-                <Link to="/contact" className='flat-button'> CONTACT ME </Link>
+                        <img src={LogoJ} alt='developer' />
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={nameArray}
+                            idx={15}
+                        />
+                        <br />
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={jobArray}
+                            idx={22}
+                        />
+                    </h1>
+                    <h2>Student / Frontend Developer</h2>
+                    <Link to="/contact" className='flat-button'> CONTACT ME </Link>
+                </div>
+                <Logo />
             </div>
-            <Logo />
+            <Loader type='pacman' />
         </div>
     );
 }
