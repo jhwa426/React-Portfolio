@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 
-import LogoJ from '../../assets/images/letter-j.png';
-import LogoSubtitle from '../../assets/images/Jeff_Hwang.png';
+// import LogoJ from '../../assets/images/letter-j.png';
+// import LogoSubtitle from '../../assets/images/Jeff_Hwang.png';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,9 +16,10 @@ const Sidebar = () => {
     return (
         <div className='nav-bar'>
             <Link className='logo' to='/'>
-                {/* <img src={require('../../assets/images/letter-j.png')} alt='Logo' /> */}
-                <img scr={LogoJ} alt='Logo' />
-                <img className="sub-logo" scr={LogoSubtitle} alt='slobodan' />
+                <img src={require('../../assets/images/letter-j.png')} alt='Logo' />
+                {/* <img scr={LogoJ} alt='Logo' /> */}
+                {/* <img className="sub-logo" scr={LogoSubtitle} alt='slobodan' /> */}
+                <img src={require('../../assets/images/Jeff_Hwang.png')} className="sub-logo" alt='LogoSubtitle' />
             </Link>
 
             <nav>
