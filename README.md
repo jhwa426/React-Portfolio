@@ -32,4 +32,4 @@ Learn:
 - How to create and implement contact form in React using EmailJS
 - How to add maps to your website in React using Leafleat.js
 
-<details>
+</details>
