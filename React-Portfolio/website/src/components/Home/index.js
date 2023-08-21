@@ -52,7 +52,8 @@ const Home = () => {
                             idx={22}
                         />
                     </h1>
-                    <h2>Student / Frontend Developer</h2>
+                    <h2>Kia ora, welcome to my website! I'm an undergraduate student at the University of Auckland. You can find me on Linkedin or email me.</h2>
+                    <h3>Student / Frontend Developer</h3>
                     <Link to="/contact" className='flat-button'> CONTACT ME </Link>
                 </div>
                 <Logo />
