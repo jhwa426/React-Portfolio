@@ -26,9 +26,22 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>Hello, .....</p>
-                    <p>I am .....1</p>
-                    <p>I am .....2</p>
+
+                    <p>I am a highly motivated and organised individual who demonstrates the characteristics of independent and critical thinking through my university and work. </p>
+                    <p>With strong attention to detail, I consistently meet personal and professional goals on time and to excellent criteria.</p>
+                    <br />
+                    <br />
+                    <h1>
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={['S', 'k', 'i', 'l', 'l', 's', " ", "&", " ", "T", "o", "o", "l", "s"]}
+                            idx={15}
+                        />
+                    </h1>
+                    <p>Familiar : Python, JAVA (OOP), C# (ASP.NET), HTML/CSS/JavaScript, React.js, Node.js/Express.js, SQL (MSSQL server, SQLite), MongoDB, Git, REST API, Agile Methodology, Data Structures, Algorithms, R for Statistical Computing</p>
+                    <br />
+                    <p>Tools : Google Colab, Tableau, Microsoft Power BI Business data analytics, MS Project, VS code, Visual Studio</p>
+
                 </div>
 
                 <div className='stage-cube-cont'>
