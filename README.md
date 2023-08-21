@@ -17,7 +17,7 @@
 
 ## React-Portfolio
 
-Source: [freeCodeCamp.org](<(https://www.youtube.com/watch?v=bmpI252DmiI&ab_channel=freeCodeCamp.org)>)
+Source: [freeCodeCamp.org](https://www.youtube.com/watch?v=bmpI252DmiI&ab_channel=freeCodeCamp.org/)
 
 <details>
 
