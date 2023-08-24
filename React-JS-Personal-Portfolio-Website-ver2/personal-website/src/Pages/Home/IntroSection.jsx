@@ -15,6 +15,7 @@ const IntroSection = () => {
                         <br />
                         This is a description area 2
                     </p>
+                    <br />
                 </div>
                 <button className='btn btn-primary'>Get In Touch</button>
             </div>
