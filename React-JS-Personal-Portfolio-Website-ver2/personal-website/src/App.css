@@ -143,6 +143,9 @@ h3 {
     line-height: 21px;
 }
 
+
+
+
 /* Section Titles */
 /* Skills & About Me */
 .section--title {
@@ -165,65 +168,3 @@ h3 {
 }
 
 /* Section Titles Ends */
-
-
-
-
-/* Intro Section Style */
-.intro--section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 133.333px 85.333px 133.333px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 32px;
-    background-color: var(--bg-shade);
-}
-
-.intro--section--content-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-}
-
-.intro--section--content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 21.333px;
-}
-
-.intro--section--content--box>button {
-    margin-top: 21.333px;
-}
-
-.intro--section--title {
-    color: var(--heading-color);
-    font-size: 74.667px;
-    font-weight: 700;
-    line-height: 90px;
-    align-self: stretch;
-}
-
-.intro--section--title--color {
-    color: var(--primary);
-}
-
-.intro--section-description {
-    color: var(--darkblue);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-}
-
-.intro--section--img {
-    display: flex;
-}
-
-.intro--section--img>img {
-    width: 100%;
-    height: 100%;
-}
-
-/* Intro Section Style Ends */
