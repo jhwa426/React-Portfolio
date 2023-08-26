@@ -1,0 +1,80 @@
+/* Skills Section Style */
+.skills--section {
+    display: flex;
+    padding: 149.33px 85.33px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 106.667px;
+}
+
+.skills--section--heading {
+    color: var(--heading-color);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+}
+
+.skills--section--container {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42.6px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skills--section--card {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 10.6px;
+    background: var(--bg-shade);
+    min-height: 250px;
+}
+
+.skills--section--card:hover {
+    border-bottom: 4px solid var(--primary);
+}
+
+.skills--section--card:hover .skills--section--description {
+    color: var(--darkblue);
+}
+
+.skills--section--img {
+    display: flex;
+    padding: 13.3px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.3px;
+    border-radius: 10.6px;
+    background: #fff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skills--section--card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.skills--section--title {
+    color: var(--heading-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.skills--section--description {
+    color: var(--black);
+    font-size: 21.3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* Skills Style Ends */
