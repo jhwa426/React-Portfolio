@@ -29,23 +29,26 @@
         {
             "id": "1",
             "src": "./img/placeholder-image.png",
-            "title": "Ahuse",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-            "link": "View In Github"
+            "title": "Bootcamp-Web Development ",
+            "description": "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps.",
+            "github": "View In Github",
+            "url": "https://github.com/jhwa426/Bootcamp-Web_Development"
         },
         {
             "id": "2",
             "src": "./img/placeholder-image-1.png",
-            "title": "App Dashboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-            "link": "View In Github"
+            "title": "React-The-Complete-Guide-2023",
+            "description": "React - The Complete Guide 2023 (incl. React Router & Redux)",
+            "github": "View In Github",
+            "url": "https://github.com/jhwa426/React-The-Complete-Guide-2023"
         },
         {
             "id": "3",
             "src": "./img/placeholder-image-2.png",
-            "title": "Easy Rentn",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-            "link": "View In Github"
+            "title": "Personal-Website",
+            "description": "React JS - Personal Portfolio Website",
+            "github": "View In Github",
+            "url": "https://github.com/jhwa426/Personal-Website"
         }
     ],
     "testimonial": [
