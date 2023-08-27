@@ -1,0 +1,62 @@
+/* About Us */
+.about--section {
+    display: grid;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 114.6px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about--section--img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro--section--content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.intro--section--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.333px;
+}
+
+.intro--section-description {
+    color: var(--darkblue);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.section--title {
+    color: var(--heading-color);
+    font-size: 21px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sub--title {
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.skills--section--heading {
+    color: var(--heading-color);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+}
+
+
+/* About Us Ends */

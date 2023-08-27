@@ -23,6 +23,13 @@
     gap: 21.333px;
 }
 
+.intro--section-description {
+    color: var(--darkblue);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
 .intro--section--content--box>button {
     margin-top: 21.333px;
 }
