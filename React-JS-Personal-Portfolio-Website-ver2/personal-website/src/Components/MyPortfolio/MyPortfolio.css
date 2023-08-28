@@ -16,6 +16,13 @@
     line-height: 21px;
 }
 
+.sub--title {
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
 a {
     text-decoration: none;
 }
@@ -23,6 +30,7 @@ a {
 /* Optionally, style visited links */
 a:visited {
     color: #800080;
+    /* color: black; */
     /* Change the color for visited links */
 }
 

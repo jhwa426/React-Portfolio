@@ -4,7 +4,7 @@ import data from "../../data/index.json";
 const MySkills = () => {
     return (
         <div>
-            <section className="skills--section" id="mySkills">
+            <section className="skills--section" id="MySkills">
                 <div className="portfolio--container">
                     <h2 className="section--title">Skills</h2>
                     <p className="skills--section--heading">Skills & Tools</p>

@@ -2,14 +2,14 @@ import './IntroSection.css';
 
 const IntroSection = () => {
     return (
-        <section id="introSection" className='intro--section'>
+        <section id="IntroSection" className='intro--section'>
             <div className='intro--section-content-box'>
                 <div className='intro--section-content'>
                     <p className='section--title'>Kia ora, I'm Jeff</p>
                     <h1 className='intro--section--title'>
-                        <span className='intro--section-title--color'>Software </span> {" "}
+                        <span className='intro--section-title--color'>Software Developer</span> {" "}
                         <br />
-                        Developer
+                        {/* Developer */}
                     </h1>
                     <p className='intro--section-description'>
                         This is a description area

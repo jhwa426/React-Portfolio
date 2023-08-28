@@ -1,0 +1,89 @@
+/* Education */
+.coursework{
+    color: red;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+
+.text-md {
+    color: var(--darkblue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.education--container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.education--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.3px;
+}
+
+.education--section--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42.6px;
+    width: 100%;
+}
+
+.education--section {
+    display: flex;
+    padding: 112px 84.3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    background-color: var(--bg-shade);
+}
+
+.sections--heading {
+    color: var(--heading-color);
+}
+
+.education--section--card {
+    display: flex;
+    padding: 42.6px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    flex: 1 0 0;
+    border-radius: 50px;
+    border: 1.33px solid #006b6a;
+}
+
+.education--section--card--reviews {
+    display: flex;
+    align-items: flex-start;
+    gap: 5.33px;
+}
+
+.education--section--card--description {
+    display: flex;
+    align-items: center;
+    gap: 21.3px;
+}
+
+.education--name {
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.education--degree {
+    color: var(--darkblue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Education Ends */
