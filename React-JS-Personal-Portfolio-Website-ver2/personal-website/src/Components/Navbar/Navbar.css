@@ -16,7 +16,7 @@
     list-style: none;
     display: flex;
     align-items: flex-start;
-    gap: 42.667px;
+    gap: 30px;
     text-decoration: none;
 }
 
@@ -39,3 +39,223 @@
 }
 
 /* Navbar Styler Ends */
+
+
+/* Responsive Screens */
+@media only screen and (max-width: 1800px) {
+    .intro--section--title {
+        font-size: 68px;
+        line-height: 70px;
+    }
+
+    .skills--section--title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .skills--section--heading {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    .skills--section--container {
+        gap: 16px;
+    }
+
+    .skills--section--card {
+        gap: 28px;
+    }
+
+    .skills--section--card--content {
+        gap: 20px;
+    }
+
+    .skills--section--title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .skills--section--description {
+        font-size: 17.333px;
+        line-height: 27px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .btn-outline-primary {
+        display: none;
+    }
+
+    .intro--section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 70px;
+    }
+
+    .intro--section--title,
+    .intro--section-description,
+    .footer--content {
+        text-align: center;
+    }
+
+    .skills--section--container,
+    .about--section,
+    .portfolio--section--container,
+    .portfolio--container-box,
+    .footer--link--container,
+    .footer--items>ul,
+    .footer--content--container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills--section,
+    .portfolio--container,
+    .intro--section--content,
+    .intro--section--content--box {
+        align-items: center;
+    }
+
+    .portfolio--container-box {
+        gap: 30px;
+    }
+
+    .skills--section,
+    .education--section,
+    .contact--section,
+    .footer--container {
+        gap: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .about--section {
+        gap: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .education--section--card {
+        padding: 25px;
+    }
+
+    .intro--section--title,
+    .skills--section--heading,
+    .sections--heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .intro--section--content--box {
+        gap: 10px;
+    }
+
+    .contact--form--container {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer--social--icon>ul,
+    .footer--items>ul {
+        padding: 0;
+        align-items: center;
+    }
+
+    .divider {
+        margin: 20px;
+    }
+}
+
+/* Hamburger menu  */
+
+.nav__hamburger {
+    display: none;
+    width: 1.875rem;
+    height: 1.313rem;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.nav__hamburger__line {
+    display: block;
+    height: 0.188rem;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 0.625rem;
+    transition: all ease-in-out 0.2s;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav__hamburger {
+        display: flex;
+        z-index: 200;
+    }
+
+    .navbar--items {
+        display: flex;
+    }
+
+    .navbar--items {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255);
+        top: -20rem;
+        left: 0;
+        width: 100%;
+        transition: all ease-in-out 0.4s;
+    }
+
+    .navbar--items ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 3rem 0 0.6rem;
+        z-index: -100;
+    }
+
+    .navbar--items ul li {
+        text-align: center;
+    }
+
+    .navbar--items ul li a {
+        padding: 0.5rem;
+    }
+
+    .navbar--items {
+        z-index: -1000;
+    }
+
+    .navbar--items.active {
+        top: 30px;
+    }
+
+    .nav__hamburger.active :nth-child(1) {
+        transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+    }
+
+    .nav__hamburger.active :nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav__hamburger.active :nth-child(3) {
+        transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+    }
+
+    .nav__hamburger.active :nth-child(4) {
+        opacity: 0;
+    }
+}
+
+/* Responsive Screens Ends*/

@@ -1,5 +1,7 @@
 import AboutMe from "../AboutMe/AboutMe";
+import ContactMe from "../ContactMe/ContactMe";
 import Education from "../Education/Education";
+import Footer from "../Footer/Footer";
 import IntroSection from '../IntroSection/IntroSection';
 import MyPortfolio from "../MyPortfolio/MyPortfolio";
 import MySkills from '../MySkills/MySkills';
@@ -12,6 +14,8 @@ const Home = () => {
             <MySkills />
             <MyPortfolio />
             <Education />
+            <ContactMe />
+            <Footer />
         </div>
     );
 }

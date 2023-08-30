@@ -6,13 +6,13 @@ import data from '../../data/index.json';
 const Education = () => {
     return (
         <section className="education--section" id="Education">
-            <div className="education--container-box">
-                <div className="education--container">
+            <div className="portfolio--container-box">
+                <div className="portfolio--container">
                     <p className="sub--title">Education</p>
                     <h2 className="sections--heading">Education</h2>
                 </div>
             </div>
-            <div className="education--section--container">
+            <div className="portfolio--section--container">
                 {data?.education?.map((item, index) => (
                     <div key={index} className="education--section--card">
                         <div className="education--section--card--reviews">

@@ -41,16 +41,13 @@ const Navbar = () => {
                 <img src='./img/Jeff_Hwang_logo.PNG' alt="jeff_hwang logo" style={{ width: 200, height: 45 }} />
             </div>
 
-            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
-                <span className='nav__hamburger__line'>
-
-                </span>
-                <span className='nav__hamburger__line'>
-
-                </span>
-                <span className='nav__hamburger__line'>
-
-                </span>
+            <a
+                className={`nav__hamburger ${navActive ? "active" : ""}`}
+                onClick={toggleNav}
+            >
+                <span className='nav__hamburger__line'></span>
+                <span className='nav__hamburger__line'></span>
+                <span className='nav__hamburger__line'></span>
             </a>
 
             <div className={`navbar--items ${navActive ? "active" : ""}`}>
@@ -63,7 +60,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="IntroSection"
+                            to="IntroSection" //it has to match with section ID
                             className="navbar--content"
                         >
                             Home
@@ -127,6 +124,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+
             <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
@@ -134,7 +132,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="ContactMe"
                 className="btn btn-outline-primary"
             >
                 Contact Me
