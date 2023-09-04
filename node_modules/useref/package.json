@@ -1,0 +1,44 @@
+{
+  "name": "useref",
+  "version": "1.4.4",
+  "description": "Parse build blocks in HTML files to replace references",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report",
+    "coveralls": "nyc npm test && nyc report --reporter=lcov"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "build",
+    "blocks",
+    "build",
+    "comments",
+    "replace",
+    "scripts",
+    "link",
+    "ref"
+  ],
+  "author": "Jonathan Kemp <kempdogg@gmail.com> (http://jonkemp.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "chai": "^4.3.4",
+    "coveralls": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^8.0.0",
+    "mocha": "*",
+    "nyc": "^15.1.0"
+  },
+  "repository": "jonkemp/useref"
+}

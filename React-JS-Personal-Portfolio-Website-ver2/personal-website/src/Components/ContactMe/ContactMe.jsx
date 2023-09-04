@@ -1,6 +1,32 @@
 import './ContactMe.css';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const ContactMe = () => {
+    const refForm = useRef();
+
+    const sendEmail = (event) => {
+        event.preventDefault()
+
+        emailjs
+            .sendForm(
+                process.env.REACT_APP_serviceID,
+                process.env.REACT_APP_templateID,
+                refForm.current,
+                process.env.REACT_APP_publicKey
+            )
+            .then(
+                () => {
+                    alert('Message successfully sent!')
+                    window.location.reload(false)
+                },
+                () => {
+                    alert('Failed to send the message, please try again')
+                }
+            )
+    }
+
     return (
         <section id="ContactMe" className="contact--section">
             <div>
@@ -8,14 +34,14 @@ const ContactMe = () => {
                 <h2>Contact Me</h2>
                 <p className="text-lg">Flick me a quick message :)</p>
             </div>
-            <form className="contact--form--container">
+            <form ref={refForm} onSubmit={sendEmail} className="contact--form--container">
                 <div className="container">
                     <label htmlFor="first-name" className="contact--label">
                         <span className="text-md">First Name</span>
                         <input
                             type="text"
                             className="contact--input text-md"
-                            name="first-name"
+                            name="user_name"
                             id="first-name"
                             required
                         />
@@ -35,7 +61,7 @@ const ContactMe = () => {
                         <input
                             type="text"
                             className="contact--input text-md"
-                            name="email"
+                            name="user_email"
                             id="email"
                             required
                         />
@@ -45,7 +71,7 @@ const ContactMe = () => {
                         <input
                             type="text"
                             className="contact--input text-md"
-                            name="contact-number"
+                            name="contact_number"
                             id="contact-number"
                             required
                         />
@@ -67,6 +93,7 @@ const ContactMe = () => {
                         id="message"
                         rows="8"
                         placeholder="Leave your message"
+                        name="message"
                     />
                 </label>
 
@@ -80,7 +107,8 @@ const ContactMe = () => {
                 </label>
 
                 <div>
-                    <button className="btn btn-primary contact--form--btn">Submit</button>
+                    <button className="btn btn-primary contact--form--btn">Send</button>
+                    {/* <input className="btn btn-primary contact--form--btn" type='submit' value="SEND" /> */}
                 </div>
             </form>
         </section >
