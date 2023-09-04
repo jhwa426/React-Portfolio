@@ -21,10 +21,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_jzoma5b",
-                "template_akawo88",
+                process.env.REACT_APP_serviceID,
+                process.env.REACT_APP_templateID,
                 refForm.current,
-                process.env.publicKey
+                process.env.REACT_APP_publicKey
             )
             .then(
                 () => {
@@ -56,13 +56,13 @@ const Contact = () => {
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
                                 <li className='half'>
-                                    <input type='text' name='name' placeholder='Name' required />
+                                    <input type='text' name='user_name' placeholder='Name' required />
                                 </li>
                                 <li className='half'>
-                                    <input type='text' name='email' placeholder='Email' required />
+                                    <input type='text' name='user_email' placeholder='Email' required />
                                 </li>
                                 <li>
-                                    <input placeholder="subject" type="text" name="subject" />
+                                    <input placeholder="Contact Number" type="text" name="contact_number" />
                                 </li>
                                 <li>
                                     <textarea placeholder='Leave your message' name="message" required></textarea>
