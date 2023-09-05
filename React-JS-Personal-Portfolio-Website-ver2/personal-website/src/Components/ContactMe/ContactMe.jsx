@@ -1,5 +1,5 @@
 import './ContactMe.css';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
@@ -51,7 +51,7 @@ const ContactMe = () => {
                         <input
                             type="text"
                             className="contact--input text-md"
-                            name="last-name"
+                            name="user_name"
                             id="last-name"
                             required
                         />
