@@ -79,6 +79,10 @@ Source: TBC
 
 Learn:
 
+- How to draw SVG animation using GSAP and React
+- How to implement font icons in React
+- How to create and implement contact form in React using EmailJS
+
 ## Getting Started
 
 In the project directory, you can run:
