@@ -4,25 +4,25 @@
             "id": "1",
             "src": "./img/product-chain-1.png",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "HTML5, CSS3, JavaScript, Bootstrap, React JS"
         },
         {
             "id": "2",
             "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "title": "Back-End & Database",
+            "description": "Node JS, Express JS, MongoDB, SQL (MSSQL server, SQLite)"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "src": "./img/feather-pen-1.png",
+            "title": "Object-Oriented Programming",
+            "description": "JAVA, C# (ASP.NET), REST API, Agile Methodology"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "src": "./img/feather-pen-2.png",
+            "title": "Data Science & Tools",
+            "description": "Python (Pandas, NumPy, Plotly, Matplotlib), Tableau, Power BI, Git"
         }
     ],
     "portfolio": [
@@ -54,7 +54,7 @@
     "education": [
         {
             "id": "1",
-            "src": "./img/avatar-image.png",
+            "src": "./img/uoa.jpeg",
             "description": "Big Data and Machine Learning, Database Systems, Data Analysis, Management, and Visualisation, Capstone Project",
             "name": "The University of Auckland, Auckland, New Zealand",
             "degree": "Bachelor of Science Major in Information and Technology Management",
@@ -62,7 +62,7 @@
         },
         {
             "id": "2",
-            "src": "./img/avatar-image-1.png",
+            "src": "./img/uoa.jpeg",
             "description": "Object Oriented Software Development, Agile Methodology, Computer Systems, Data Structures & Algorithms",
             "name": "The University of Auckland, Auckland, New Zealand",
             "degree": "Bachelor of Science Software Development Module [COMPSCI 101, 130, 230, 235]",
@@ -70,7 +70,7 @@
         },
         {
             "id": "3",
-            "src": "./img/avatar-image-2.png",
+            "src": "./img/acg-logo.jpeg",
             "description": "Accounting, Geography, Photography, Statistics and English for Academic Purpose (EAP)",
             "name": "ACG International College, Auckland, New Zealand",
             "degree": "The University of Auckland Certificate in Foundation Studies",

@@ -15,12 +15,9 @@ const Education = () => {
             <div className="portfolio--section--container">
                 {data?.education?.map((item, index) => (
                     <div key={index} className="education--section--card">
-                        <div className="education--section--card--reviews">
-
-                        </div>
                         <p className="coursework">Coursework:<p className="text-md">{item.description}</p></p>
                         <div className="education--section--card--description">
-                            <img src={item.src} alt="Fix later" />
+                            <img className="education--section--card--img" src={item.src} alt="education-logo" />
                             <div>
                                 <p className="text-md education--degree">{item.degree}</p>
                                 <br />

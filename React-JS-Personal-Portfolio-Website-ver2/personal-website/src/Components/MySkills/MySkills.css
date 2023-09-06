@@ -64,14 +64,14 @@
 
 .skills--section--title {
     color: var(--heading-color);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 45px;
 }
 
 .skills--section--description {
     color: var(--black);
-    font-size: 21.3px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;

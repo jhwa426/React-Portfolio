@@ -58,5 +58,16 @@
     line-height: 77px;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Optionally, style visited links */
+
+a:visited {
+    /* color: #800080; */
+    color: black;
+    /* Change the color for visited links */
+}
 
 /* About Us Ends */

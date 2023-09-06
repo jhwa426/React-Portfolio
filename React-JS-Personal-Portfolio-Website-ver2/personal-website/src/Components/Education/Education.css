@@ -62,11 +62,11 @@
     border: 1.33px solid #006b6a;
 }
 
-.education--section--card--reviews {
+/* .education--section--card--reviews {
     display: flex;
     align-items: flex-start;
     gap: 5.33px;
-}
+} */
 
 .education--section--card--description {
     display: flex;
@@ -84,6 +84,13 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+
+.education--section--card--img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* Education Ends */
