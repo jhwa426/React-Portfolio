@@ -12,11 +12,11 @@
 
 }
 
-.home-button:hover {
+/* .home-button:hover {
     color: var(--primary);
     background-color: var(--white);
     border: 1px solid var(--primary);
-}
+} */
 
 .navbar {
     display: flex;
