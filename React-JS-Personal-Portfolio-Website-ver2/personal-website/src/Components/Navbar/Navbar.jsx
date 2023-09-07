@@ -37,8 +37,17 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                {/* <img src="./img/logo.svg" alt="Logoipsum" /> */}
-                <img src='./img/Jeff_Hwang_logo.PNG' alt="jeff_hwang logo" style={{ width: 200, height: 45 }} />
+                <Link
+                    to="IntroSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <button className="home-button">
+                        <img className="logo--img" src='./img/Jeff_Hwang_logo.PNG' alt="jeff_hwang logo" /> {/* style={{ width: 200, height: 45 }} /> */}
+                    </button>
+                </Link>
             </div>
 
             <a

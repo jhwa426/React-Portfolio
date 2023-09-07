@@ -1,4 +1,23 @@
 /* Navbar Style Start */
+.logo--img {
+    width: 200px;
+    height: 45px;
+}
+
+.home-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.home-button:hover {
+    color: var(--primary);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
