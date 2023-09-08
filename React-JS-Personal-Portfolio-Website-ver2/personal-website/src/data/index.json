@@ -36,7 +36,7 @@
         },
         {
             "id": "2",
-            "src": "./img/placeholder-image-1.png",
+            "src": "./img/placeholder-image-2.png",
             "title": "React-The-Complete-Guide-2023",
             "description": "React - The Complete Guide 2023 (incl. React Router & Redux)",
             "github": "View In Github",
@@ -44,7 +44,7 @@
         },
         {
             "id": "3",
-            "src": "./img/placeholder-image-2.png",
+            "src": "./img/personal website.png",
             "title": "Personal-Website",
             "description": "React JS - Personal Portfolio Website",
             "github": "View In Github",
