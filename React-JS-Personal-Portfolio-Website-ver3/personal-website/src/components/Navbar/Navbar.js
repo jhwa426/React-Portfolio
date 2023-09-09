@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
-
+import { GiLaptop } from 'react-icons/gi';
+import { FaBars } from 'react-icons/fa';
 
 export const Nav = styled.div`
         background-color: ${({ theme }) => theme.card_light};
@@ -122,24 +123,69 @@ export const ButtonContainer = styled.div`
     }
 `;
 
+export const Span = styled.div`
+    padding: 0 4px;
+    font-weight: bold;
+    font-size: 18px;
+`;
+
+export const MobileMenu = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    padding: 12px 40px 24px 40px;
+    background: ${({ theme }) => theme.card_light + 99};
+    transition: all 0.6s ease-in-out;
+    transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
+    z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
+
+`
+
 const Navbar = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <Nav>
             <NavbarContainer>
-                <NavLogo>Jeff Hwnag</NavLogo>
-                <MobileIcon></MobileIcon>
+                <NavLogo to="/">
+                    <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+                        <Span>Jeff Hwang</Span> <GiLaptop size="2rem" />
+                    </a>
+                </NavLogo>
+                <MobileIcon>
+                    <FaBars
+                        onClick={() => {
+                            setIsOpen(!isOpen);
+                        }}
+                    />
+                </MobileIcon>
                 <NavItems>
-                    <NavLink href="#home">Home</NavLink>
                     <NavLink href="#aboutMe">About</NavLink>
                     <NavLink href="#skills">Skills</NavLink>
-                    <NavLink href="#education">Education</NavLink>
                     <NavLink href="#projects">Projects</NavLink>
+                    <NavLink href="#education">Education</NavLink>
                     <NavLink href="#contactMe">Contact</NavLink>
                 </NavItems>
                 <ButtonContainer>
                     <GitHubButton>Github</GitHubButton>
                 </ButtonContainer>
             </NavbarContainer>
+            {
+                isOpen && (
+                    <MobileMenu>
+
+                    </MobileMenu>
+                )
+            }
         </Nav>
     );
 }
