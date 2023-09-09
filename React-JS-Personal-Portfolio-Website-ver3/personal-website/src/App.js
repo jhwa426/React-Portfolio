@@ -2,7 +2,7 @@ import './App.css';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
 import Navbar from "./components/Navbar/Navbar";
-import IntroSection from './components/IntroSection/IntroSection'
+import AboutMe from './components/AboutMe/AboutMe'
 import Skills from "./components/Skills/Skills";
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -25,7 +25,7 @@ function App() {
             <Router>
                 <Navbar />
                 <Body>
-                    <IntroSection />
+                    <AboutMe />
                     <Wrapper>
                         <Skills />
                     </Wrapper>
