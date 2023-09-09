@@ -84,12 +84,13 @@ a:visited {
 }
 
 .portfolio--section--img {
-    border-radius: 8px;
+    /* border-radius: 8px; */
     width: 100%;
 }
 
 .portfolio--section--img>img {
     width: 100%;
+    border-radius: 50px;
 }
 
 .portfolio--section--card {
@@ -103,6 +104,7 @@ a:visited {
     cursor: pointer;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    border-radius: 50px;
 }
 
 .portfolio--section--card--content {
