@@ -36,19 +36,19 @@
         },
         {
             "id": "2",
-            "src": "./img/placeholder-image-2.png",
-            "title": "React-The-Complete-Guide-2023",
-            "description": "React - The Complete Guide 2023 (incl. React Router & Redux)",
-            "github": "View In Github",
-            "url": "https://github.com/jhwa426/React-The-Complete-Guide-2023"
-        },
-        {
-            "id": "3",
             "src": "./img/personal website.png",
             "title": "Personal-Website",
             "description": "React JS - Personal Portfolio Website",
             "github": "View In Github",
             "url": "https://github.com/jhwa426/Personal-Website"
+        },
+        {
+            "id": "3",
+            "src": "./img/placeholder-image-2.png",
+            "title": "React-The-Complete-Guide-2023",
+            "description": "React - The Complete Guide 2023 (incl. React Router & Redux)",
+            "github": "View In Github",
+            "url": "https://github.com/jhwa426/React-The-Complete-Guide-2023"
         }
     ],
     "education": [
