@@ -2,7 +2,7 @@
 export const Bio = {
     name: "Jeff Hwang",
     roles: [
-        "SoftwareDeveloper",
+        "Software Developer",
         "Frontend Developer",
         "Programmer",
         "Undergraduate Student"
@@ -10,7 +10,7 @@ export const Bio = {
     description:
         "This is description",
     github: "https://github.com/jhwa426",
-    resume: "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    resume: "https://google.com/", //Fix later
     linkedin: "https://www.linkedin.com/in/jeffhwa411/",
     twitter: "https://twitter.com/",
     insta: "https://www.instagram.com//",

@@ -4,7 +4,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { GiLaptop } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-
+import { Bio } from '../../data/constants';
 
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <NavLink href="#contactMe">Contact</NavLink>
                 </NavItems>
                 <ButtonContainer>
-                    <GitHubButton href="/" target="_blank">Github</GitHubButton>
+                    <GitHubButton href={Bio.github} target="_blank">Github</GitHubButton>
                 </ButtonContainer>
             </NavbarContainer>
             {
@@ -83,8 +83,8 @@ const Navbar = () => {
 
                         <GitHubButton
                             style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }}
-                            href="/"
-                            arget="_blank"
+                            href={Bio.github}
+                            target="_blank"
                         >
                             Github
                         </GitHubButton>
