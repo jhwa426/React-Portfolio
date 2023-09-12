@@ -25,10 +25,24 @@ function App() {
             <Router>
                 <Navbar />
                 <Body>
+
+                    {/* HOME */}
                     <AboutMe />
+
+
                     <Wrapper>
                         <Skills />
+
                     </Wrapper>
+
+
+                    Projects
+
+                    Education
+
+                    Contact
+
+
                 </Body>
             </Router>
         </ThemeProvider>
