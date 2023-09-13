@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
+import Projects from "./components/Projects/Projects";
 
 
 const Body = styled.div`
@@ -33,13 +34,10 @@ function App() {
 
                     <Wrapper>
                         <Skills />
+                        <Projects />
                         <Education />
                     </Wrapper>
 
-
-                    Projects
-
-                    Education
 
                     Contact
 
