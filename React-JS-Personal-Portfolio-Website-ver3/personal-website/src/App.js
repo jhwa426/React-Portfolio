@@ -1,10 +1,11 @@
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
 import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
-import { BrowserRouter as Router } from 'react-router-dom';
+import Education from "./components/Education/Education";
 
 
 const Body = styled.div`
@@ -32,7 +33,7 @@ function App() {
 
                     <Wrapper>
                         <Skills />
-
+                        <Education />
                     </Wrapper>
 
 
