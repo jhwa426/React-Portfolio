@@ -6,7 +6,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import EducationCard from "../Cards/EducationCard";
-import { education } from '../../data/constants';
+import { education } from '../../data/index';
 
 
 const Education = () => {

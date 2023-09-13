@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import styled, { useTheme } from "styled-components";
+import { useTheme } from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
 import { GiLaptop } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { Bio } from '../../data/constants';
+import { personal_info } from '../../data/index';
 
 
 const Navbar = () => {
@@ -16,7 +16,9 @@ const Navbar = () => {
         <Nav>
             <NavbarContainer>
                 <NavLogo to="/">
-                    <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+                    <a
+                        style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}
+                    >
                         <Span>Jeff Hwang</Span> <GiLaptop size="2rem" />
                     </a>
                 </NavLogo>
@@ -28,14 +30,14 @@ const Navbar = () => {
                     />
                 </MobileIcon>
                 <NavItems>
-                    <NavLink href="#aboutMe">About</NavLink>
+                    <NavLink href="#aboutMe">About</NavLink> {/* href="#aboutMe" === <div id="aboutMe"> */}
                     <NavLink href="#skills">Skills</NavLink>
                     <NavLink href="#projects">Projects</NavLink>
                     <NavLink href="#education">Education</NavLink>
                     <NavLink href="#contactMe">Contact</NavLink>
                 </NavItems>
                 <ButtonContainer>
-                    <GitHubButton href={Bio.github} target="_blank">Github</GitHubButton>
+                    <GitHubButton href={personal_info.github} target="_blank">Github</GitHubButton>
                 </ButtonContainer>
             </NavbarContainer>
             {
@@ -63,27 +65,29 @@ const Navbar = () => {
                                 setIsOpen(!isOpen)
                             }}
                         >
-                            Experience
-                        </MobileLink>
-                        <MobileLink
-                            href='#education'
-                            onClick={() => {
-                                setIsOpen(!isOpen)
-                            }}
-                        >
                             Projects
                         </MobileLink>
                         <MobileLink
-                            href='#contactMe' onClick={() => {
+                            href='#education' onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
                         >
                             Education
                         </MobileLink>
+                        <MobileLink
+                            href='#contactMe'
+                            onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            style={{ paddingBottom: '5px' }}
+                        >
+                            Contact
+                        </MobileLink>
 
+                        {/* <br /> */}
                         <GitHubButton
                             style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }}
-                            href={Bio.github}
+                            href={personal_info.github}
                             target="_blank"
                         >
                             Github

@@ -1,6 +1,5 @@
-import styled from "styled-components";
 import { Container, Wrapper, Title, Description, SkillsContainer, Skill, SkillTitle, SkillList, SkillItem, SkillImage } from "./SkillsStyledComponent";
-import { skills } from '../../data/constants';
+import { skills } from '../../data/index';
 
 
 const Skills = () => {

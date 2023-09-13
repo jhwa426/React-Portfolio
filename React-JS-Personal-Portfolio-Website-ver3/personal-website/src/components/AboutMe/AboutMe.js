@@ -1,12 +1,11 @@
-import styled from "styled-components";
 import { AboutMeContainer, AboutMeBg, AboutMeLeftContainer, Img, AboutMeRightContainer, AboutMeInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton } from './AboutStyle';
-import { Bio } from '../../data/constants';
+import { personal_info } from '../../data/index';
 import Typewriter from 'typewriter-effect';
 import AboutMeBgAnimation from '../AboutMeBgAnimation/AboutMeBgAnimation';
 
 const AboutMe = () => {
     return (
-        <div id="about">
+        <div id="aboutMe">
             <AboutMeContainer>
                 <AboutMeBg>
                     <AboutMeBgAnimation />
@@ -15,22 +14,22 @@ const AboutMe = () => {
                     <AboutMeLeftContainer id="Left">
                         <Title>Hi, I am
                             <br />
-                            {Bio.name}
+                            {personal_info.name}
                         </Title>
                         <TextLoop>
                             I am a
                             <Span>
                                 <Typewriter
                                     options={{
-                                        strings: Bio.roles,
+                                        strings: personal_info.roles,
                                         autoStart: true,
                                         loop: true,
                                     }}
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <SubTitle>{personal_info.description}</SubTitle>
+                        <ResumeButton href={personal_info.resume} target='display'>Check Resume</ResumeButton>
                     </AboutMeLeftContainer>
 
                     <AboutMeRightContainer id="Right">

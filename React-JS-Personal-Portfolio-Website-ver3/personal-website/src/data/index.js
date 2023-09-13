@@ -1,5 +1,5 @@
 // Fix later before deployment
-export const Bio = {
+export const personal_info = {
     name: "Jeff Hwang",
     roles: [
         "Software Developer",
