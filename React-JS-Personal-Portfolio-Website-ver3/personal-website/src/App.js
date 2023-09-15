@@ -1,4 +1,5 @@
 import './App.css';
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
@@ -22,8 +23,11 @@ const Wrapper = styled.div`
 `
 
 function App() {
+    const [darkMode, setDarkMode] = useState(true);
+    const [openModal, setOpenModal] = useState({ state: false, project: null });
+
     return (
-        <ThemeProvider theme={darkTheme}>
+        <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
             <Router>
                 <Navbar />
                 <Body>
@@ -31,10 +35,12 @@ function App() {
                     {/* HOME */}
                     <AboutMe />
 
-
                     <Wrapper>
                         <Skills />
-                        <Projects />
+                        <Projects openModal={openModal} setOpenModal={setOpenModal} />
+                    </Wrapper>
+
+                    <Wrapper>
                         <Education />
                     </Wrapper>
 
