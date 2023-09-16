@@ -8,6 +8,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
 import Projects from "./components/Projects/Projects";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 
 const Body = styled.div`
@@ -47,6 +48,10 @@ function App() {
 
                     Contact
 
+                    {
+                        openModal.state &&
+                        <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+                    }
 
                 </Body>
             </Router>
