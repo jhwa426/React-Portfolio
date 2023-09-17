@@ -5,7 +5,7 @@ import AboutMeBgAnimation from '../AboutMeBgAnimation/AboutMeBgAnimation';
 
 const AboutMe = () => {
     return (
-        <div id="aboutMe">
+        <div id="AboutMe">
             <AboutMeContainer>
                 <AboutMeBg>
                     <AboutMeBgAnimation />

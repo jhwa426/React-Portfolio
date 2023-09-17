@@ -204,14 +204,14 @@ export const MobileLink = styled.a`
     }
 `;
 
-export const MobileNavLogo = styled(LinkR)`
-    width: 80%;
-    padding: 0 6px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    text-decoration: none;
-    @media (max-width: 640px) {
-        padding: 0 0px;
-    }
-`;
+// export const MobileNavLogo = styled(LinkR)`
+//     width: 80%;
+//     padding: 0 6px;
+//     display: flex;
+//     justify-content: start;
+//     align-items: center;
+//     text-decoration: none;
+//     @media (max-width: 640px) {
+//         padding: 0 0px;
+//     }
+// `;

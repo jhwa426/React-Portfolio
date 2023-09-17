@@ -11,7 +11,7 @@ import { education } from '../../data/index';
 
 const Education = () => {
     return (
-        <Container id="education">
+        <Container id="Education">
             <Wrapper>
                 <Title>Education</Title>
                 <Description>

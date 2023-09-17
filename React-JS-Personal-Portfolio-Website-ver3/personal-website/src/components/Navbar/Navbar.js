@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useTheme } from "styled-components";
-import { Link as LinkR } from 'react-router-dom';
 import { GiLaptop } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { personal_info } from '../../data/index';
+// import { Link as LinkR } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -30,10 +30,10 @@ const Navbar = () => {
                     />
                 </MobileIcon>
                 <NavItems>
-                    <NavLink href="#aboutMe">About</NavLink> {/* href="#aboutMe" === <div id="aboutMe"> */}
-                    <NavLink href="#skills">Skills</NavLink>
-                    <NavLink href="#projects">Projects</NavLink>
-                    <NavLink href="#education">Education</NavLink>
+                    <NavLink href="#AboutMe">About</NavLink> {/* href="#AboutMe" === <div id="AboutMe"> */}
+                    <NavLink href="#Skills">Skills</NavLink>
+                    <NavLink href="#Projects">Projects</NavLink>
+                    <NavLink href="#Education">Education</NavLink>
                     <NavLink href="#ContactMe">Contact</NavLink>
                 </NavItems>
                 <ButtonContainer>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 isOpen && (
                     <MobileMenu isOpen={isOpen}>
                         <MobileLink
-                            href="#aboutMe"
+                            href="#AboutMe"
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -52,7 +52,7 @@ const Navbar = () => {
                             About
                         </MobileLink>
                         <MobileLink
-                            href='#skills'
+                            href='#Skills'
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -60,7 +60,7 @@ const Navbar = () => {
                             Skills
                         </MobileLink>
                         <MobileLink
-                            href='#projects'
+                            href='#Projects'
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
@@ -68,14 +68,14 @@ const Navbar = () => {
                             Projects
                         </MobileLink>
                         <MobileLink
-                            href='#education' onClick={() => {
+                            href='#Education' onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
                         >
                             Education
                         </MobileLink>
                         <MobileLink
-                            href='#contactMe'
+                            href='#ContactMe'
                             onClick={() => {
                                 setIsOpen(!isOpen)
                             }}
