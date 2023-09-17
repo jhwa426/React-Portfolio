@@ -87,7 +87,7 @@ const ContactMe = () => {
                     </select>
                 </label>
                 <label htmlFor="message" className="contact--label">
-                    <span className="text-md">message</span>
+                    <span className="text-md">Message</span>
                     <textarea
                         className="contact--input text-md"
                         id="message"
@@ -102,7 +102,8 @@ const ContactMe = () => {
                         type="checkbox"
                         name="checkbox"
                         id="checkbox"
-                        required />
+                        required
+                    />
                     <span className="text-sm">Accept the terms</span>
                 </label>
 
