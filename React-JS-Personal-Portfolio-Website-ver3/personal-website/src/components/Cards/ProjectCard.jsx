@@ -17,11 +17,12 @@ const ProjectCard = ({ project, setOpenModal }) => {
 
             {/* optional */}
             <Members>
-                {project.member?.map((member) => (
+                {project.members?.map((member) => (
                     <Avatar src={member.img} />
                 ))}
             </Members>
             {/* optional */}
+
             <Button>View Project</Button>
         </Card>
     );

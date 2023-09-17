@@ -34,7 +34,7 @@ const Navbar = () => {
                     <NavLink href="#skills">Skills</NavLink>
                     <NavLink href="#projects">Projects</NavLink>
                     <NavLink href="#education">Education</NavLink>
-                    <NavLink href="#contactMe">Contact</NavLink>
+                    <NavLink href="#ContactMe">Contact</NavLink>
                 </NavItems>
                 <ButtonContainer>
                     <GitHubButton href={personal_info.github} target="_blank">Github</GitHubButton>

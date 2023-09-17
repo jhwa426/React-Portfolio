@@ -343,7 +343,7 @@ export const projects = [
         ],
         category: "bootcamp",
         github: "https://github.com/jhwa426/Bootcamp-Web_Development",
-        webapp: "https://www.appbrewery.co/p/web-development-course-resources/",
+        website: "https://www.appbrewery.co/p/web-development-course-resources/",
     },
     {
         id: 1,
@@ -364,7 +364,7 @@ export const projects = [
         ],
         category: "web development",
         github: "https://github.com/jhwa426/React-Portfolio",
-        webapp: "https://github.com/jhwa426/React-Portfolio"
+        website: "https://github.com/jhwa426/React-Portfolio"
     },
     {
         id: 2,
@@ -385,7 +385,7 @@ export const projects = [
         ],
         category: "web development",
         github: "https://github.com/jhwa426/React-Portfolio",
-        webapp: "https://jeff-hwang.netlify.app/"
+        website: "https://jeff-hwang.netlify.app/"
     },
     {
         id: 3,
@@ -398,8 +398,8 @@ export const projects = [
         skills: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
         category: "data science",
         github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-        webapp: "https://brain-tumor.netlify.app/",
-        member: [
+        website: "https://brain-tumor.netlify.app/",
+        members: [
             {
                 name: "Rishav Chanda",
                 img: "https://avatars.githubusercontent.com/u/64485885?v=4",
@@ -433,7 +433,7 @@ export const projects = [
         ],
         category: "data science",
         github: "https://github.com/jhwa426/Big-Data-and-Machine-Learning",
-        webapp: "https://github.com/jhwa426/Big-Data-and-Machine-Learning" //google colab link connect later!
+        website: "https://github.com/jhwa426/Big-Data-and-Machine-Learning" //google colab link connect later!
     },
     {
         id: 5,
@@ -449,7 +449,7 @@ export const projects = [
         ],
         category: "object oriented program",
         github: "https://github.com/jhwa426/Java",
-        webapp: "https://github.com/jhwa426/Java"
+        website: "https://github.com/jhwa426/Java"
     },
     {
         id: 6,
@@ -462,7 +462,7 @@ export const projects = [
         skills: ["React Js", "API", "Axios", "Node JS"],
         category: "web app",
         github: "https://github.com/rishavchanda/Breaking-Bad",
-        webapp: "https://breaking-bad-webapp.netlify.app",
+        website: "https://breaking-bad-webapp.netlify.app",
     },
     {
         id: 7,
@@ -475,7 +475,7 @@ export const projects = [
         skills: ["Java", "Android Studio", "Firebase", "Google Auth"],
         category: "android app",
         github: "https://github.com/rishavchanda/Quiz-Earn",
-        webapp: "https://github.com/rishavchanda/Quiz-Earn",
+        website: "https://github.com/rishavchanda/Quiz-Earn",
     },
     {
         id: 8,
@@ -488,6 +488,6 @@ export const projects = [
         skills: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
         category: "machine learning",
         github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-        webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+        website: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     },
 ];
