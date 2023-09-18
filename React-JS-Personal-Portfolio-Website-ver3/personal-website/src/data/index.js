@@ -12,9 +12,8 @@ export const personal_info = {
     github: "https://github.com/jhwa426",
     resume: "https://google.com/", //Fix later
     linkedin: "https://www.linkedin.com/in/jeffhwa411/",
-    twitter: "https://twitter.com/",
-    insta: "https://www.instagram.com//",
-    facebook: "https://www.facebook.com/",
+    instagram: "https://www.instagram.com/jeff_hjy/",
+    facebook: "https://www.facebook.com/wodud6359",
 };
 
 // Fix later before deployment
