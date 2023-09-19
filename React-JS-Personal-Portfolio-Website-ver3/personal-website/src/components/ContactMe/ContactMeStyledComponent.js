@@ -29,6 +29,7 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.div`
+    padding-top: 100px;
     font-size: 42px;
     text-align: center;
     font-weight: 600;

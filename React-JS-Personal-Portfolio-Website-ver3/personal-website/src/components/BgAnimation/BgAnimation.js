@@ -1,5 +1,5 @@
 import React from 'react';
-import { Div } from './AboutMeBgAnimationStyle';
+import { Div } from './BgAnimationStyledComponent';
 
 
 const AboutMeBgAnimation = () => (

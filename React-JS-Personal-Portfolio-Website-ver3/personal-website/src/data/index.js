@@ -8,7 +8,8 @@ export const personal_info = {
         "Undergraduate Student"
     ],
     description:
-        "This is description",
+        "Kia ora, welcome to my website! I'm an undergraduate student at the University of Auckland",
+
     github: "https://github.com/jhwa426",
     resume: "https://google.com/", //Fix later
     linkedin: "https://www.linkedin.com/in/jeffhwa411/",

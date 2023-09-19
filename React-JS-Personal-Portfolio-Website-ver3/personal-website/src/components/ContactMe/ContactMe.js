@@ -67,9 +67,9 @@ const ContactMe = () => {
                         required
                     />
                     <ContactInputMessage
+                        name="message"
                         placeholder="Leave your message"
                         rows="8"
-                        name="message"
                         required
                     />
                     <ContactSendButton type="submit" value="Send" />

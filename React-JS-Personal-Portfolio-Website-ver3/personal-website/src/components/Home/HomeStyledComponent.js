@@ -1,7 +1,6 @@
 import styled from "styled-components";
-// import _default from "../../themes/default";
 
-export const AboutMeContainer = styled.div`
+export const HomeContainer = styled.div`
     background: ${({ theme }) => theme.card_light};
     display: flex;
     justify-content: center;
@@ -18,31 +17,24 @@ export const AboutMeContainer = styled.div`
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
-export const AboutMeBg = styled.div`
-    position: absolute;
-    display: flex;
-    justify-content: end;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 1360px;
-    overflow: hidden;
-    padding: 0 30px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-
+export const Title = styled.div`
+    font-weight: 700;
+    font-size: 50px;
+    color: ${({ theme }) => theme.text_primary};
+    line-height: 68px;
     @media (max-width: 960px) {
-        justify-content: center;
-        padding: 0 0px;
+        text-align: center;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 8px;
     }
 `;
 
-export const AboutMeInnerContainer = styled.div`
+export const HomeInnerContainer = styled.div`
+    padding-top: 50px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -55,7 +47,7 @@ export const AboutMeInnerContainer = styled.div`
     }
 `;
 
-export const AboutMeLeftContainer = styled.div`
+export const HomeLeftContainer = styled.div`
     width: 100%;
     order: 1;
     @media (max-width: 960px) {
@@ -75,7 +67,7 @@ export const AboutMeLeftContainer = styled.div`
     }
 `;
 
-export const AboutMeRightContainer = styled.div`
+export const HomeRightContainer = styled.div`
     width: 100%;
     display: flex;
     order: 2;
@@ -97,14 +89,15 @@ export const Img = styled.img`
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: 400px;
-    max-height: 400px;
-    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 20%;
     border: 2px solid ${({ theme }) => theme.primary};
 
     @media (max-width: 768px) {
         max-width: 400px;
         max-height: 400px;
+        margin-top: 30px
     }
 
     @media (max-width: 640px) {
@@ -113,19 +106,27 @@ export const Img = styled.img`
     }
 `;
 
-export const Title = styled.div`
-    font-weight: 700;
-    font-size: 50px;
-    color: ${({ theme }) => theme.text_primary};
-    line-height: 68px;
-    @media (max-width: 960px) {
-        text-align: center;
-    }
+export const HomeBg = styled.div`
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1360px;
+    overflow: hidden;
+    padding: 0 30px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 
-    @media (max-width: 640px) {
-        font-size: 40px;
-        line-height: 48px;
-        margin-bottom: 8px;
+    @media (max-width: 960px) {
+        justify-content: center;
+        padding: 0 0px;
     }
 `;
 
@@ -151,28 +152,12 @@ export const Span = styled.span`
     cursor: pointer;
 `;
 
-export const SubTitle = styled.div`
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 42px;
-    color: ${({ theme }) => theme.text_primary + 95};
-
-    @media (max-width: 960px) {
-        text-align: center;
-    }
-
-    @media (max-width: 640px) {
-        font-size: 16px;
-        line-height: 32px;
-    }
-`;
-
-export const ResumeButton = styled.a`
+export const ContactMeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
+    width: 30%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
@@ -202,4 +187,19 @@ export const ResumeButton = styled.a`
         font-size: 18px;
     } 
 
+`;
+
+export const NavLink = styled.a`
+        color: ${({ theme }) => theme.text_primary};
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        :hover {
+        color: ${({ theme }) => theme.primary};
+        }
+
+        &.active {
+        border-bottom: 2px solid ${({ theme }) => theme.primary};
+        }
 `;

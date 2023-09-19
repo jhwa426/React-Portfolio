@@ -1,9 +1,10 @@
 import './App.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
@@ -11,6 +12,7 @@ import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
+
 
 
 const Body = styled.div`
@@ -34,10 +36,11 @@ function App() {
             <Router>
                 <Navbar />
                 <Body>
+                    <Home />
 
-                    {/* HOME */}
-
-                    <AboutMe />
+                    <Wrapper>
+                        <AboutMe />
+                    </Wrapper>
 
                     <Wrapper>
                         <Skills />

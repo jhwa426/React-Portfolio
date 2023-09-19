@@ -1,4 +1,4 @@
-import { Container, Wrapper, Title, Date, Description, Image, Label, Skills, Skill, Members, Member, MemberImage, MemberName, ButtonGroup, Button } from './ProjectDetailsStyled';
+import { Container, Wrapper, Title, Date, Description, Image, Label, Skills, Skill, Members, Member, MemberImage, MemberName, ButtonGroup, Button } from './ProjectDetailsStyledComponent';
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 
