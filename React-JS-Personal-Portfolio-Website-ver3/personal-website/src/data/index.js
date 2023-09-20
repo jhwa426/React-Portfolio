@@ -238,7 +238,7 @@ export const projects = [
             "How to create and implement contact form in React using EmailJS",
             "How to add maps to your website in React using Leafleat.js",
         ],
-        img: "./img/personal website.png",
+        img: "./img/personal website1.png",
         skills: [
             "React JS",
             "React Router",
