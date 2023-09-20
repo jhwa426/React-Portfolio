@@ -16,7 +16,7 @@ export const Button = styled.button`
 `
 export const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 500px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -71,7 +71,7 @@ export const Details = styled.div`
     padding: 0px 2px;
 `
 export const Title = styled.div`
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_secondary};
     overflow: hidden;

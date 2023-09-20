@@ -14,9 +14,7 @@ const Education = () => {
         <Container id="Education">
             <Wrapper>
                 <Title>Education</Title>
-                <Description>
-                    This is description
-                </Description>
+                <Description>Education in New Zealand</Description>
                 <TimelineSection>
                     <Timeline>
                         {education.map((information) => (

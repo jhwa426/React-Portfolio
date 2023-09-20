@@ -28,7 +28,10 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                             <Skill>{skill}</Skill>
                         ))}
                     </Skills>
-                    <Description>{project?.description}</Description>
+
+                    {project.descriptionDetails?.map((detail, index) => (
+                        <Description>{detail}</Description>
+                    ))}
 
                     {/* optional */}
                     {project.members && (

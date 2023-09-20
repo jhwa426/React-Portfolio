@@ -1,4 +1,3 @@
-// Fix later before deployment
 export const personal_info = {
     name: "Jeff Hwang",
     roles: [
@@ -7,17 +6,13 @@ export const personal_info = {
         "Programmer",
         "Undergraduate Student"
     ],
-    description:
-        "Kia ora, welcome to my website! I'm an undergraduate student at the University of Auckland",
-
+    description: "",
     github: "https://github.com/jhwa426",
     resume: "https://google.com/", //Fix later
     linkedin: "https://www.linkedin.com/in/jeffhwa411/",
     instagram: "https://www.instagram.com/jeff_hjy/",
     facebook: "https://www.facebook.com/wodud6359",
 };
-
-// Fix later before deployment
 
 export const skills = [
     {
@@ -185,116 +180,342 @@ export const skills = [
     },
 ];
 
-export const experiences = [
+export const projects = [
     {
         id: 0,
-        img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-        role: "DevOps & Fullstack Engineering Intern",
-        company: "Flipr Inovations Pvt. Ltd.",
-        date: "Aug 2023 - July 2023",
-        desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-        skills: [
-            "Docker",
-            "Terraform",
-            "AWS",
-            "EC2",
-            "Portainer",
-            "Nginx",
-            "JavaScript",
-            "TypeScript",
-            "Node Js",
-            " Next Js",
+        title: "Bootcamp-Web Development",
+        date: "Jan 2023 - July 2023",
+        description: "Become a Full-Stack Web Developer",
+        descriptionDetails: [
+            "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps."
         ],
-        doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-    },
-    {
-        id: 0,
-        img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
-        role: "Frontend Engineer Intern",
-        company: "Neurobit",
-        date: "June 2023 - Present",
-        desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+        img: "./img/bootcamp-web development.png",
         skills: [
-            "ReactJS",
-            "Redux",
-            "NodeJs",
-            "Material UI",
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
             "JavaScript",
+            "JQuery",
+            "React JS",
+            "MongoDB",
+            "Node JS",
+            "Express JS",
+            "Git",
+            "REST API",
+            "Web Design"
         ],
-        doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+        category: "bootcamp",
+        github: "https://github.com/jhwa426/Bootcamp-Web_Development",
+        website: "https://www.appbrewery.co/p/web-development-course-resources/",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "Udemy",
+                img: "./img/udemy.png",
+                github: "https://github.com/londonappbrewery",
+                linkedin: "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
+            },
+        ],
     },
+
     {
         id: 1,
-        img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-        role: "Fullstack Externship",
-        company: "Flipr",
-        date: "June 2023 - July 2023",
-        desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+        title: "React-Portfolio",
+        date: "Jul 2023 - Present",
+        description: "React JS - Personal Portfolio Website ver 1",
+        descriptionDetails: [
+            "How to draw SVG animation using GSAP and React",
+            "How to animate letters on hover using Animate.css and React",
+            "How to add page loading animation using React-Loaders",
+            "How to add Pacman animation in React",
+            "How to create custom 3D CSS animations",
+            "How to implement font icons in React",
+            "How to create and implement contact form in React using EmailJS",
+            "How to add maps to your website in React using Leafleat.js",
+        ],
+        img: "./img/personal website.png",
         skills: [
-            "ReactJS",
+            "React JS",
+            "React Router",
             "Redux",
-            "NodeJs",
-            "Material UI",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Docker",
-            "AWS",
-            "MongoDB",
+            "NEXT JS",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/React-Portfolio",
+        website: "https://github.com/jhwa426/React-Portfolio",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
         ],
     },
+
     {
         id: 2,
-        img: "https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=1692835200&v=beta&t=FjOWcUVVNzqFbTmmp0iXQkv5keBQC5lxIQ7K6rmMSMQ",
-        role: "Open Source Contributor ",
-        company: "GirlScript Summer of Code",
-        date: "May 2023 - Present",
-        desc: "Contributing to different open-source projects and learn from industry experts",
-        doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+        title: "React-Portfolio",
+        date: "Jul 2023 - Present",
+        description: "React JS - Personal Portfolio Website ver 2",
+        descriptionDetails: [
+            "How to draw SVG animation using GSAP and React",
+            "How to implement font icons in React",
+            "How to create and implement contact form in React using EmailJS",
+        ],
+        img: "./img/personal website2.png",
+        skills: [
+            "React JS",
+            "React Router",
+            "Redux",
+            "NEXT JS",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/React-Portfolio",
+        website: "https://jeff-hwang.netlify.app/",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+        ],
     },
+
     {
         id: 3,
-        img: "https://media.licdn.com/dms/image/D4D0BAQGfGQHEJt8gPA/company-logo_100_100/0/1666002815185?e=1692230400&v=beta&t=c4obZda4Uh9q6vOcmCbxjoSiExvbvYwEHUlgdY0tU-4",
-        role: "Android Developer",
-        company: "DSC KIIT",
-        date: "Nov2021 - Present",
-        desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+        title: "React The complete guide 2023",
+        date: "Jul 2023 - Present",
+        description: "React Component, React Router & Redux",
+        descriptionDetails: [
+            "Learn React, Hooks, Redux, React Router, Next.js",
+            "Manage complex state efficiently with React's Context API & React Redux",
+            "Learn about routing & route-related data fetching with React Router",
+            "Build fullstack React apps with NextJS",
+            "Build multiple demo projects & explore realistic examples",
+            "Learn all about React Hooks and React Components",
+            "Build standalone React apps & applications connected to a backend via HTTP",
+            "Implement user authentication in React apps",
+            "Get started with React Unit Testing",
+        ],
+        img: "./img/react-the-complete-guide-2023.png",
         skills: [
-            "Leadership",
-            "Mobile Application Development",
-            "Kotlin",
-            "XML",
-            "Figma",
+            "React JS",
+            "React Router",
+            "Redux",
+            "NEXT JS",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "bootcamp",
+        github: "https://github.com/jhwa426/React-The-Complete-Guide-2023",
+        website: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "Udemy",
+                img: "./img/udemy.png",
+                github: "https://github.com/jhwa426/React-The-Complete-Guide-2023",
+                linkedin: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+            },
         ],
     },
+
     {
         id: 4,
-        img: "https://media.licdn.com/dms/image/C4D0BAQH4od9HG2K7bw/company-logo_100_100/0/1661484397513?e=1692230400&v=beta&t=IW-eebE0PpFxqZ8Q3UCYYtlAokbhAEqsNePBv2Pmg18",
-        role: "Android Developer Intern",
-        company: "Rudraksha Welffare Foundation",
-        date: "June 2021 - Oct 2021",
-        desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-        skills: [
-            "Android",
-            "Java",
-            "Kotlin",
-            "XML",
-            "Node Js",
-            "Cloud Firestore",
-            "Firebase",
-            "Figma",
+        title: "Big Data and Machine Learning",
+        date: "Jul 2022 - Nov 2022",
+        description: "Big Data, Data Mining / Machine Learning techniques",
+        descriptionDetails: [
+            "The purpose of this course is to acquire knowledge to apply appropriate Big Data, Data Mining / Machine Learning techniques to gain information insights to various problems faced by an organisation. The focus of this course is to firstly identify a problem from a given case study that needs solving; secondly, consider various possible designs and select the most appropriate solution; and finally, to specify a solid plan for building and evaluating the system designed. No executable implementation of the system is expected. A basic knowledge of Big Data and tools will be given. Knowledge and experience of state of the art machine learning tools from a key vendor, will be gained in the labs with opportunities and encouragement to explore other tools.",
         ],
-        doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+        img: "./img/uoa.jpeg",
+        skills: [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Plotly",
+            "Matplotlib",
+            "GoogleColab",
+        ],
+        category: "data science",
+        github: "https://github.com/jhwa426/Big-Data-and-Machine-Learning",
+        website: "https://github.com/jhwa426/Big-Data-and-Machine-Learning", //google colab link connect later!
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "UoA",
+                img: "./img/uoa.jpeg",
+                github: "https://github.com/jhwa426/Big-Data-and-Machine-Learning",
+                linkedin: "https://www.auckland.ac.nz/en.html",
+            },
+        ],
     },
+
+    {
+        id: 5,
+        title: "Object Oriented Software Development",
+        date: "Jul 2021 - Nov 2021",
+        description: "Java programming language, GUI programming and application-level multi-threading",
+        descriptionDetails: [
+            "Using Java programming language, we demonstrate fundamental skills in object-oriented software development, GUI programming and application-level multi-threading.",
+            "An introduction to object-oriented paradigm of designing and developing software applications. The focus of this course would be on learning good software design objectives and principles. Using Java programming language, students will learn modelling and developing software applications of reasonable complexity and quality through the application of established object-oriented design principles and patterns. In doing so, students will also demonstrate fundamental skills in object-oriented software development, GUI programming and application-level multi-threading. This course is one of the prerequisites for the third year courses of COMPSCI 331, COMPSCI 335, COMPSCI 340, COMPSCI 345 and COMPSCI 373. The skills developed in this course are particularly useful for those wishing to have a career in professional software development. Students planning to take the capstone course next year are also expected to benefit from the learning outcomes of this course.",
+        ],
+        img: "./img/uoa.jpeg",
+        skills: [
+            "JAVA",
+            "Eclipse",
+        ],
+        category: "object oriented program",
+        github: "https://github.com/jhwa426/Java",
+        website: "https://github.com/jhwa426/Java",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "UoA",
+                img: "./img/uoa.jpeg",
+                github: "https://github.com/jhwa426/Java",
+                linkedin: "https://www.auckland.ac.nz/en.html",
+            },
+        ],
+    },
+
+    {
+        id: 6,
+        title: "Database",
+        date: "Mar 2021 - Jul 2023",
+        description: "SQL, MSSQL, MongoDB Database",
+        descriptionDetails: [
+            "BUSAN 201: This course aims to expose you to knowledge, tools, and methods necessary to effectively manage data in today’s digital world by allowing you to work with real data in various formats, use industry-relevant software, practise and develop problem-solving techniques, and develop an appreciation of data as a valuable asset for any business in any industry.",
+            "INFOSYS 222: This course aims to develop the fundamental skills of designing and developing a relational database. All assessments require student to demonstrate their mastery of the practical aspects of the course including data modelling and structured query language (SQL)",
+            "BUSAN 300: This course aims to provide you with a data management toolbox that is applicable to business data among disciplines and industries; to develop your skills in analytical thinking, programmatic problem solving, and business communication; to build up your proficiency in making raw data valuable and meaningful for a business audience; and to expose you to the digital data life-cycle.",
+        ],
+        img: "./img/uoa.jpeg",
+        skills: [
+            "MSSQL",
+            "SQLite",
+            "Mongo DB",
+        ],
+        category: "data science",
+        github: "https://github.com/jhwa426/Database",
+        website: "https://github.com/jhwa426/Database",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "UoA",
+                img: "./img/uoa.jpeg",
+                github: "https://github.com/jhwa426/Database",
+                linkedin: "https://www.auckland.ac.nz/en.html",
+            },
+        ],
+    },
+
+    {
+        id: 7,
+        title: "Data Technologies",
+        date: "Mar 2022 - Jul 2022",
+        description: "R programming language at The University of Auckland",
+        descriptionDetails: [
+            "Explores the processes of data acquisition, data storage and data processing using current computer technologies. Students will gain experience with and understanding of the processes of data acquisition, storage, retrieval, manipulation, and management. Students will also gain experience with and understanding of the computer technologies that perform these processes.",
+            "This course introduces R programming to handle a wide variety of data science challenges, from importing, wrangling, visualising data, to reproducible reporting, for effective data-driven decision making. Students will gain an understanding of tidy data principles, grammar of data manipulation, and grammar of graphics, using a set of data-oriented tools. Students will also learn to solve data-analytical problems in both business and research environments.",
+        ],
+        img: "./img/uoa.jpeg",
+        skills: [
+            "R",
+            "SQLite",
+        ],
+        category: "data science",
+        github: "https://github.com/jhwa426/STATS-220",
+        website: "https://github.com/jhwa426/STATS-220",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "UoA",
+                img: "./img/uoa.jpeg",
+                github: "https://github.com/jhwa426/STATS-220",
+                linkedin: "https://www.auckland.ac.nz/en.html",
+            },
+        ],
+    },
+
+    {
+        id: 8,
+        title: "Python",
+        date: "Mar 2020 - Nov 2020",
+        description: "Python programming language, Data Structures, Algorithms",
+        descriptionDetails: [
+            "COMPSCI 101: This course introduces computer programming using the Python programming language. The main focus is on learning to understand the detailed requirements of a programming task, and writing programs that are well structured, correct and easy to read. The course covers simple variables, expressions, input and output, control structures, functions, using standard data structures such as lists and dictionaries, and using standard Python modules. The course is designed for students who do not have any prior programming experience. For students who wish to continue with Computer Science, this course will prepare them for the core Stage I paper COMPSCI 130.",
+            "COMPSCI 130: This is the entry course to Computer Science for students with prior programming experience. It focuses on the quality of processes used when developing software, and the quality of the software product produced using those processes. The course provides an introduction to fundamental software development techniques and processes, such as reading, writing, and documenting programming code, decomposing problems, testing, debugging, using recursion and handling unexpected errors. It also addresses efficient ways to organize and manipulate data, including sorting and searching algorithms, and writing software that uses and implements common abstract data types such as lists, stacks, queues, dictionaries and trees. The course will be taught using the Python programming language."
+        ],
+        img: "./img/uoa.jpeg",
+        skills: [
+            "Python",
+            "Data Structures",
+            "Algorithms",
+        ],
+        category: "data science",
+        github: "https://github.com/jhwa426/Python",
+        website: "https://github.com/jhwa426/Python",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+            {
+                name: "UoA",
+                img: "./img/uoa.jpeg",
+                github: "https://github.com/jhwa426/Python",
+                linkedin: "https://www.auckland.ac.nz/en.html",
+            },
+        ],
+    },
+
 ];
 
 export const education = [
     {
         id: 0,
         img: "./img/uoa.jpeg",
-        // desc: "Big Data and Machine Learning, Database Systems, Data Analysis, Management, and Visualisation, Capstone Project",
         desc: "Big Data and Machine Learning, Database Systems, Data Analysis, Management, and Visualisation, Exploratory data Analysis, Capstone Project",
         school: "The University of Auckland, Auckland, New Zealand",
         degree: "Bachelor of Science Major in Information and Technology Management",
@@ -315,179 +536,5 @@ export const education = [
         school: "ACG International College, Auckland, New Zealand",
         degree: "The University of Auckland Certificate in Foundation Studies",
         date: "Jan 2019 – Dec 2019",
-    },
-];
-
-export const projects = [
-    {
-        id: 0,
-        title: "Bootcamp-Web Development",
-        date: "Jan 2023 - July 2023",
-        description:
-            "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps.",
-        img:
-            "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-        skills: [
-            "HTML5",
-            "CSS3",
-            "Bootstrap",
-            "JavaScript",
-            "JQuery",
-            "React JS",
-            "MongoDB",
-            "Node JS",
-            "Express JS",
-            "Git",
-            "REST API",
-            "Web Design"
-        ],
-        category: "bootcamp",
-        github: "https://github.com/jhwa426/Bootcamp-Web_Development",
-        website: "https://www.appbrewery.co/p/web-development-course-resources/",
-    },
-    {
-        id: 1,
-        title: "Personal-Website",
-        date: "Jul 2023 - Present",
-        description:
-            "React JS - Personal Portfolio Website ver 1",
-        img:
-            "./img/personal website.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux",
-            "NEXT JS",
-            "HTML5",
-            "CSS3",
-            "JavaScript"
-        ],
-        category: "web development",
-        github: "https://github.com/jhwa426/React-Portfolio",
-        website: "https://github.com/jhwa426/React-Portfolio"
-    },
-    {
-        id: 2,
-        title: "Personal-Website",
-        date: "Jul 2023 - Present",
-        description:
-            "React JS - Personal Portfolio Website ver 2",
-        img:
-            "./img/personal website.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux",
-            "NEXT JS",
-            "HTML5",
-            "CSS3",
-            "JavaScript"
-        ],
-        category: "web development",
-        github: "https://github.com/jhwa426/React-Portfolio",
-        website: "https://jeff-hwang.netlify.app/"
-    },
-    {
-        id: 3,
-        title: "Brain Tumor Detection",
-        date: "Jan 2023 - Mar 2023",
-        description:
-            "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-        img:
-            "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-        skills: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-        category: "data science",
-        github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-        website: "https://brain-tumor.netlify.app/",
-        members: [
-            {
-                name: "Rishav Chanda",
-                img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-                linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-                github: "https://github.com/rishavchanda/",
-            },
-            {
-                name: "Upasana Chaudhuri",
-                img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-                linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-                github: "https://github.com/upasana0710",
-            },
-        ],
-    },
-    {
-        id: 4,
-        title: "Big-Data-and-Machine-Learning",
-        date: "Jul 2022 - Nov 2022",
-        description:
-            "Big Data, Data Mining / Machine Learning techniques",
-        img:
-            "./img/uoa.jpeg",
-        skills: [
-            "Python",
-            "Pandas",
-            "NumPy",
-            "Plotly",
-            "Matplotlib",
-            "Jupyter Notebook",
-            "GoogleColab"
-        ],
-        category: "data science",
-        github: "https://github.com/jhwa426/Big-Data-and-Machine-Learning",
-        website: "https://github.com/jhwa426/Big-Data-and-Machine-Learning" //google colab link connect later!
-    },
-    {
-        id: 5,
-        title: "Object Oriented Software Development",
-        date: "Jul 2021 - Nov 2021",
-        description:
-            "Using Java programming language, we demonstrate fundamental skills in object-oriented software development, GUI programming and application-level multi-threading.",
-        img:
-            "./img/uoa.jpeg",
-        skills: [
-            "JAVA",
-            "Eclipse",
-        ],
-        category: "object oriented program",
-        github: "https://github.com/jhwa426/Java",
-        website: "https://github.com/jhwa426/Java"
-    },
-    {
-        id: 6,
-        title: "Breaking Bad",
-        date: "Jun 2021",
-        description:
-            "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-        img:
-            "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-        skills: ["React Js", "API", "Axios", "Node JS"],
-        category: "web app",
-        github: "https://github.com/rishavchanda/Breaking-Bad",
-        website: "https://breaking-bad-webapp.netlify.app",
-    },
-    {
-        id: 7,
-        title: "Quiz App",
-        date: "Dec 2020 - Jan 2021",
-        description:
-            "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-        img:
-            "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-        skills: ["Java", "Android Studio", "Firebase", "Google Auth"],
-        category: "android app",
-        github: "https://github.com/rishavchanda/Quiz-Earn",
-        website: "https://github.com/rishavchanda/Quiz-Earn",
-    },
-    {
-        id: 8,
-        title: "Face Recognition",
-        date: "Jan 2021",
-        description:
-            "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-        img:
-            "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-        skills: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-        category: "machine learning",
-        github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-        website: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     },
 ];

@@ -31,7 +31,7 @@ const AboutMe = () => {
                             You can find me on <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer">Linkedin </a> or <a href="mailto:jeffhwa411@gmail.com" target="_blank" rel="noopener noreferrer">email me</a>.
                         </Description>
 
-                        <ResumeButton href={personal_info.resume} target='display'>View Resume</ResumeButton>
+                        <ResumeButton href={personal_info.resume} target='display'>View CV</ResumeButton>
                     </AboutMeLeftContainer>
 
                     <AboutMeRightContainer id="Right">
