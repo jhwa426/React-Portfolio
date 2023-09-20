@@ -127,6 +127,7 @@ export const HomeBg = styled.div`
     @media (max-width: 960px) {
         justify-content: center;
         padding: 0 0px;
+        padding-top: 20px;
     }
 `;
 

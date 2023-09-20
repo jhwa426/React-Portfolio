@@ -283,7 +283,7 @@ export const projects = [
         ],
         category: "web development",
         github: "https://github.com/jhwa426/React-Portfolio",
-        website: "https://jeff-hwang.netlify.app/",
+        website: "https://jeff-hwang2.netlify.app/",
         members: [
             {
                 name: "Jeff Hwang",

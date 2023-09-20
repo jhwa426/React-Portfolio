@@ -41,7 +41,7 @@ const Home = () => {
 
 
                     <HomeRightContainer id="Right">
-                        <Img src="./img/intro_img.JPG" alt="AboutMe" />
+                        <Img src="./img/home_img.JPG" alt="Home" />
                     </HomeRightContainer>
 
                 </HomeInnerContainer>
