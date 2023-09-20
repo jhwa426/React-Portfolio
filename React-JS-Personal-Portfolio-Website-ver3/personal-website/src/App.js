@@ -45,9 +45,6 @@ function App() {
                     <Wrapper>
                         <Skills />
                         <Projects openModal={openModal} setOpenModal={setOpenModal} />
-                    </Wrapper>
-
-                    <Wrapper>
                         <Education />
                     </Wrapper>
 
