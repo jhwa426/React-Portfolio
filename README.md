@@ -13,8 +13,6 @@
 
 <br>
 
-<!-- Course resources section -->
-
 ## React JS - Personal Portfolio Website_V1
 
 Source: [freeCodeCamp.org](https://www.youtube.com/watch?v=bmpI252DmiI&ab_channel=freeCodeCamp.org/)
@@ -89,8 +87,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### [Personal Portfolio Website_V2](https://jeff-hwang2.netlify.app/)
 
-Source: TBC
-
 Website Deployment by [netlify](https://www.netlify.com/)
 
 <details>
@@ -157,8 +153,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## React JS - Personal Portfolio Website_V3
 
 ### [Personal Portfolio Website_V3](https://jeff-hwang.netlify.app/)
-
-Source: TBC
 
 Website Deployment by [netlify](https://www.netlify.com/)
 
