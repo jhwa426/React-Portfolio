@@ -7,7 +7,7 @@ export const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    `
+`
 
 export const Wrapper = styled.div`
     position: relative;
@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
     gap: 12px;
     @media (max-width: 960px) {
     flex-direction: column;
-}
+    }
 `
 
 export const Title = styled.div`
@@ -33,7 +33,7 @@ export const Title = styled.div`
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 32px;
-}
+    }
 `;
 
 export const Description = styled.div`
@@ -66,11 +66,11 @@ export const Skill = styled.div`
     @media (max-width: 768px) {
         max-width: 400px;
         padding: 10px 36px;
-}
+    }
     @media (max-width: 500px) {
         max-width: 330px;
         padding: 10px 36px;
-}
+    }
 `
 
 export const SkillTitle = styled.h2`

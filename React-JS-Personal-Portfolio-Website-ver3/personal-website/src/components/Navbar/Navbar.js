@@ -4,7 +4,6 @@ import { GiLaptop } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { personal_info } from '../../data/index';
-// import { Link as LinkR } from 'react-router-dom';
 
 
 const Navbar = () => {

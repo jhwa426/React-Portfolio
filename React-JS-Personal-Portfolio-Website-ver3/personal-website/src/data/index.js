@@ -249,8 +249,8 @@ export const projects = [
             "JavaScript"
         ],
         category: "web development",
-        github: "https://github.com/jhwa426/React-Portfolio",
-        website: "https://github.com/jhwa426/React-Portfolio",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver1/website",
+        website: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver1/website",
         members: [
             {
                 name: "Jeff Hwang",
@@ -282,7 +282,7 @@ export const projects = [
             "JavaScript"
         ],
         category: "web development",
-        github: "https://github.com/jhwa426/React-Portfolio",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver2/personal-website",
         website: "https://jeff-hwang2.netlify.app/",
         members: [
             {

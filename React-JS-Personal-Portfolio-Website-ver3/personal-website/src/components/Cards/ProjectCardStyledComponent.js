@@ -16,7 +16,7 @@ export const Button = styled.button`
 `
 export const Card = styled.div`
     width: 330px;
-    height: 500px;
+    height: 550px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
