@@ -6,7 +6,6 @@ export const personal_info = {
         "Programmer",
         "Undergraduate Student",
     ],
-    description: "",
     github: "https://github.com/jhwa426",
     cv: "https://drive.google.com/file/d/1EOfcupxyTn2krgEauEBoNx4yhi4zvPip/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/jeffhwa411/",
