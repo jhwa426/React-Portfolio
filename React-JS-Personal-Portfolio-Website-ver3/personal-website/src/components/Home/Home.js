@@ -36,9 +36,7 @@ const Home = () => {
                                 </NavLink>
                             </ContactMeButton>
                         </HomeInnerContainer>
-
                     </HomeLeftContainer>
-
 
                     <HomeRightContainer id="Right">
                         <Img src="./img/home_img.JPG" alt="Home" />

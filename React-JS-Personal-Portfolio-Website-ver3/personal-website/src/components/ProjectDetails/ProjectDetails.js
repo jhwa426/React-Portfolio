@@ -21,7 +21,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                     />
                     <Image src={project?.img} />
                     <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    <Date>{project?.date}</Date>
                     <Description>{project?.description}</Description>
                     <Skills>
                         {project?.skills.map((skill) => (
@@ -33,7 +33,6 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                         <Description>{detail}</Description>
                     ))}
 
-                    {/* optional */}
                     {project.members && (
                         <>
                             <Label>Members</Label>
@@ -53,7 +52,6 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                             </Members>
                         </>
                     )}
-                    {/* optional */}
 
                     <ButtonGroup>
                         <Button href={project?.github} target="_blank" rel="noopener noreferrer">View the code</Button>

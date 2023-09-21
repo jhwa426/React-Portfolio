@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import _default from "../../themes/default";
 
 export const AboutMeContainer = styled.div`
     background: ${({ theme }) => theme.card_light};
@@ -135,7 +134,7 @@ export const Title = styled.div`
 `;
 
 export const Description = styled.div`
-    font-size: 18px; ${'' /* font-size: 20px;  */}
+    font-size: 18px;
     line-height: 32px;
     margin-bottom: 42px;
     color: ${({ theme }) => theme.text_primary + 95};
@@ -151,12 +150,12 @@ export const Description = styled.div`
 `;
 
 
-export const ResumeButton = styled.a`
+export const CVButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
+    width: 60%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
@@ -179,8 +178,7 @@ export const ResumeButton = styled.a`
         box-shadow: 20px 20px 60px #1F2634;
         filter: brightness(1);
     }    
-    
-    
+
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;

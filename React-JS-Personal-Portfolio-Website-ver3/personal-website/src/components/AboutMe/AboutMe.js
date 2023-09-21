@@ -1,4 +1,4 @@
-import { AboutMeContainer, AboutMeBg, AboutMeLeftContainer, Img, AboutMeRightContainer, AboutMeInnerContainer, Title, Description, ResumeButton } from './AboutMeStyledComponent';
+import { AboutMeContainer, AboutMeBg, AboutMeLeftContainer, Img, AboutMeRightContainer, AboutMeInnerContainer, Title, Description, CVButton } from './AboutMeStyledComponent';
 import { personal_info } from '../../data/index';
 import BgAnimation from '../BgAnimation/BgAnimation';
 
@@ -15,7 +15,7 @@ const AboutMe = () => {
                         <Title>About Me</Title>
 
                         <Description>
-                            Kia ora, welcome to my website! I'm an undergraduate student at the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer">University of Auckland</a>.
+                            Kia ora, welcome to my website! I'm an undergraduate student at the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }} >University of Auckland</a>, New Zealand.
                         </Description>
 
                         <Description>
@@ -28,10 +28,10 @@ const AboutMe = () => {
 
                         <br />
                         <Description>
-                            You can find me on <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer">Linkedin </a> or <a href="mailto:jeffhwa411@gmail.com" target="_blank" rel="noopener noreferrer">email me</a>.
+                            You can find me on <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }}>Linkedin </a> or <a href="mailto:jeffhwa411@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "crimson" }} >email me</a>.
                         </Description>
 
-                        <ResumeButton href={personal_info.resume} target='display'>View CV</ResumeButton>
+                        <CVButton href={personal_info.cv} target='display'>View CV</CVButton>
                     </AboutMeLeftContainer>
 
                     <AboutMeRightContainer id="Right">

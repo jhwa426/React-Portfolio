@@ -4,11 +4,11 @@ export const personal_info = {
         "Software Developer",
         "Frontend Developer",
         "Programmer",
-        "Undergraduate Student"
+        "Undergraduate Student",
     ],
     description: "",
     github: "https://github.com/jhwa426",
-    resume: "https://google.com/", //Fix later
+    cv: "https://drive.google.com/file/d/1EOfcupxyTn2krgEauEBoNx4yhi4zvPip/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/jeffhwa411/",
     instagram: "https://www.instagram.com/jeff_hjy/",
     facebook: "https://www.facebook.com/wodud6359",
@@ -347,7 +347,7 @@ export const projects = [
         descriptionDetails: [
             "The purpose of this course is to acquire knowledge to apply appropriate Big Data, Data Mining / Machine Learning techniques to gain information insights to various problems faced by an organisation. The focus of this course is to firstly identify a problem from a given case study that needs solving; secondly, consider various possible designs and select the most appropriate solution; and finally, to specify a solid plan for building and evaluating the system designed. No executable implementation of the system is expected. A basic knowledge of Big Data and tools will be given. Knowledge and experience of state of the art machine learning tools from a key vendor, will be gained in the labs with opportunities and encouragement to explore other tools.",
         ],
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         skills: [
             "Python",
             "Pandas",
@@ -368,7 +368,7 @@ export const projects = [
             },
             {
                 name: "UoA",
-                img: "./img/uoa.jpeg",
+                img: "./img/uoa.jpg",
                 github: "https://github.com/jhwa426/Big-Data-and-Machine-Learning",
                 linkedin: "https://www.auckland.ac.nz/en.html",
             },
@@ -384,7 +384,7 @@ export const projects = [
             "Using Java programming language, we demonstrate fundamental skills in object-oriented software development, GUI programming and application-level multi-threading.",
             "An introduction to object-oriented paradigm of designing and developing software applications. The focus of this course would be on learning good software design objectives and principles. Using Java programming language, students will learn modelling and developing software applications of reasonable complexity and quality through the application of established object-oriented design principles and patterns. In doing so, students will also demonstrate fundamental skills in object-oriented software development, GUI programming and application-level multi-threading. This course is one of the prerequisites for the third year courses of COMPSCI 331, COMPSCI 335, COMPSCI 340, COMPSCI 345 and COMPSCI 373. The skills developed in this course are particularly useful for those wishing to have a career in professional software development. Students planning to take the capstone course next year are also expected to benefit from the learning outcomes of this course.",
         ],
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         skills: [
             "JAVA",
             "Eclipse",
@@ -401,7 +401,7 @@ export const projects = [
             },
             {
                 name: "UoA",
-                img: "./img/uoa.jpeg",
+                img: "./img/uoa.jpg",
                 github: "https://github.com/jhwa426/Java",
                 linkedin: "https://www.auckland.ac.nz/en.html",
             },
@@ -418,7 +418,7 @@ export const projects = [
             "INFOSYS 222: This course aims to develop the fundamental skills of designing and developing a relational database. All assessments require student to demonstrate their mastery of the practical aspects of the course including data modelling and structured query language (SQL)",
             "BUSAN 300: This course aims to provide you with a data management toolbox that is applicable to business data among disciplines and industries; to develop your skills in analytical thinking, programmatic problem solving, and business communication; to build up your proficiency in making raw data valuable and meaningful for a business audience; and to expose you to the digital data life-cycle.",
         ],
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         skills: [
             "MSSQL",
             "SQLite",
@@ -436,7 +436,7 @@ export const projects = [
             },
             {
                 name: "UoA",
-                img: "./img/uoa.jpeg",
+                img: "./img/uoa.jpg",
                 github: "https://github.com/jhwa426/Database",
                 linkedin: "https://www.auckland.ac.nz/en.html",
             },
@@ -452,7 +452,7 @@ export const projects = [
             "Explores the processes of data acquisition, data storage and data processing using current computer technologies. Students will gain experience with and understanding of the processes of data acquisition, storage, retrieval, manipulation, and management. Students will also gain experience with and understanding of the computer technologies that perform these processes.",
             "This course introduces R programming to handle a wide variety of data science challenges, from importing, wrangling, visualising data, to reproducible reporting, for effective data-driven decision making. Students will gain an understanding of tidy data principles, grammar of data manipulation, and grammar of graphics, using a set of data-oriented tools. Students will also learn to solve data-analytical problems in both business and research environments.",
         ],
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         skills: [
             "R",
             "SQLite",
@@ -469,7 +469,7 @@ export const projects = [
             },
             {
                 name: "UoA",
-                img: "./img/uoa.jpeg",
+                img: "./img/uoa.jpg",
                 github: "https://github.com/jhwa426/STATS-220",
                 linkedin: "https://www.auckland.ac.nz/en.html",
             },
@@ -485,7 +485,7 @@ export const projects = [
             "COMPSCI 101: This course introduces computer programming using the Python programming language. The main focus is on learning to understand the detailed requirements of a programming task, and writing programs that are well structured, correct and easy to read. The course covers simple variables, expressions, input and output, control structures, functions, using standard data structures such as lists and dictionaries, and using standard Python modules. The course is designed for students who do not have any prior programming experience. For students who wish to continue with Computer Science, this course will prepare them for the core Stage I paper COMPSCI 130.",
             "COMPSCI 130: This is the entry course to Computer Science for students with prior programming experience. It focuses on the quality of processes used when developing software, and the quality of the software product produced using those processes. The course provides an introduction to fundamental software development techniques and processes, such as reading, writing, and documenting programming code, decomposing problems, testing, debugging, using recursion and handling unexpected errors. It also addresses efficient ways to organize and manipulate data, including sorting and searching algorithms, and writing software that uses and implements common abstract data types such as lists, stacks, queues, dictionaries and trees. The course will be taught using the Python programming language."
         ],
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         skills: [
             "Python",
             "Data Structures",
@@ -503,7 +503,7 @@ export const projects = [
             },
             {
                 name: "UoA",
-                img: "./img/uoa.jpeg",
+                img: "./img/uoa.jpg",
                 github: "https://github.com/jhwa426/Python",
                 linkedin: "https://www.auckland.ac.nz/en.html",
             },
@@ -515,7 +515,7 @@ export const projects = [
 export const education = [
     {
         id: 0,
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         desc: "Big Data and Machine Learning, Database Systems, Data Analysis, Management, and Visualisation, Exploratory data Analysis, Capstone Project",
         school: "The University of Auckland, Auckland, New Zealand",
         degree: "Bachelor of Science Major in Information and Technology Management",
@@ -523,7 +523,7 @@ export const education = [
     },
     {
         id: 1,
-        img: "./img/uoa.jpeg",
+        img: "./img/uoa.jpg",
         desc: "Object Oriented Software Development, Agile Methodology, Computer Systems, Data Structures & Algorithms",
         school: "The University of Auckland, Auckland, New Zealand",
         degree: "Bachelor of Science Software Development Module [COMPSCI 101, 130, 230, 235]",

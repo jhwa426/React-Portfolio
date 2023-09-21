@@ -158,7 +158,7 @@ export const ContactMeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 30%;
+    width: 60%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
@@ -181,8 +181,7 @@ export const ContactMeButton = styled.a`
         box-shadow: 20px 20px 60px #1F2634;
         filter: brightness(1);
     }    
-    
-    
+
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
@@ -191,16 +190,16 @@ export const ContactMeButton = styled.a`
 `;
 
 export const NavLink = styled.a`
-        color: ${({ theme }) => theme.text_primary};
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        :hover {
-        color: ${({ theme }) => theme.primary};
-        }
+    color: ${({ theme }) => theme.text_primary};
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    :hover {
+    color: ${({ theme }) => theme.primary};
+    }
 
-        &.active {
-        border-bottom: 2px solid ${({ theme }) => theme.primary};
-        }
+    &.active {
+    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    }
 `;
