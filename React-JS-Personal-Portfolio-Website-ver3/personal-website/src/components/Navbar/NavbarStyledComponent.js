@@ -213,3 +213,37 @@ export const MobileLink = styled.a`
 //         padding: 0 0px;
 //     }
 // `;
+
+export const ThemeLogo = styled(LinkR)`
+    width: 10%;    
+    ${'' /* padding: 0 6px; */}
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    @media (max-width: 640px) {
+    ${'' /* padding: 0px 400px 0px 0px; */}
+    padding: 0 0px;
+}
+`;
+
+export const Elements = styled.div`
+    padding: 4px 16px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    color:  ${({ theme }) => theme.text_secondary};
+    width: 100%;
+    :hover {
+        color: ${({ theme }) => theme.primary};     
+        }
+`;
+
+export const NavText = styled.div`
+    padding: 12px 0px;
+`;
