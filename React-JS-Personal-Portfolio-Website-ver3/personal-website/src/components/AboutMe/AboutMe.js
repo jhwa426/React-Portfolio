@@ -9,8 +9,8 @@ const AboutMe = () => {
                 <AboutMeBg>
                     <BgAnimation />
                 </AboutMeBg>
-                <AboutMeInnerContainer>
 
+                <AboutMeInnerContainer>
                     <AboutMeLeftContainer id="Left">
                         <Title>About Me</Title>
 
@@ -31,7 +31,11 @@ const AboutMe = () => {
                             You can find me on <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }}>Linkedin </a> or <a href="mailto:jeffhwa411@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "crimson" }} >email me</a>.
                         </Description>
 
-                        <CVButton href={personal_info.cv} target='display'>View CV</CVButton>
+                        <AboutMeInnerContainer>
+                            <CVButton href={personal_info.cv} target='display'>
+                                View CV
+                            </CVButton>
+                        </AboutMeInnerContainer>
                     </AboutMeLeftContainer>
 
                     <AboutMeRightContainer id="Right">
