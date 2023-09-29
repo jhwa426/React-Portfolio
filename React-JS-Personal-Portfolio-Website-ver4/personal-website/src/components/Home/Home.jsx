@@ -2,8 +2,6 @@ import './Home.css';
 import CTA from "./CTA";
 import HomeIcons from "./HomeIcons";
 
-
-
 const Home = () => {
     return (
         <header>
