@@ -2,9 +2,9 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div>
+        <section id="Projects">
             This is Projects
-        </div>
+        </section>
     );
 }
 

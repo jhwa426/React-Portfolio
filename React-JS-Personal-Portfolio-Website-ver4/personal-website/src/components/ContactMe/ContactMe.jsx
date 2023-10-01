@@ -2,9 +2,9 @@ import './ContactMe.css';
 
 const ContactMe = () => {
     return (
-        <div>
+        <section id="ContactMe">
             This is ContactMe
-        </div>
+        </section>
     );
 }
 

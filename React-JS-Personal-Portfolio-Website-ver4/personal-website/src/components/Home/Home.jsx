@@ -4,7 +4,7 @@ import HomeIcons from "./HomeIcons";
 
 const Home = () => {
     return (
-        <header>
+        <header id="Home">
             <div className="container header__container">
                 <h5>Hello, I'm</h5>
                 <h1>Jeff Hwang</h1>

@@ -2,9 +2,9 @@ import './Education.css';
 
 const Education = () => {
     return (
-        <div>
+        <section id="Education">
             This is Education
-        </div>
+        </section>
     );
 }
 
