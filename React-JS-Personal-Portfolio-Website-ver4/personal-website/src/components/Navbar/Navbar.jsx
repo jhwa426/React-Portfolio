@@ -16,7 +16,7 @@ const Navbar = () => {
             <a
                 href="#Home"
                 onClick={() => setActiveNavbar("#Home")}
-                className={activeNavbar === "Home" ? "active" : ""}
+                className={activeNavbar === "#Home" ? "active" : ""}
             >
                 <AiOutlineHome />
             </a>
@@ -24,7 +24,7 @@ const Navbar = () => {
             <a
                 href="#AboutMe"
                 onClick={() => setActiveNavbar("#AboutMe")}
-                className={activeNavbar === "AboutMe" ? "active" : ""}
+                className={activeNavbar === "#AboutMe" ? "active" : ""}
             >
                 <AiOutlineUser />
             </a>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <a
                 href="#Skills"
                 onClick={() => setActiveNavbar("#Skills")}
-                className={activeNavbar === "Skills" ? "active" : ""}
+                className={activeNavbar === "#Skills" ? "active" : ""}
             >
                 <GiLaptop />
             </a>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <a
                 href="#Projects"
                 onClick={() => setActiveNavbar("#Projects")}
-                className={activeNavbar === "Projects" ? "active" : ""}
+                className={activeNavbar === "#Projects" ? "active" : ""}
             >
                 <GoProjectSymlink />
             </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <a
                 href="#Education"
                 onClick={() => setActiveNavbar("#Education")}
-                className={activeNavbar === "Education" ? "active" : ""}
+                className={activeNavbar === "#Education" ? "active" : ""}
             >
                 <BiBook />
             </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <a
                 href="#ContactMe"
                 onClick={() => setActiveNavbar("#ContactMe")}
-                className={activeNavbar === "ContactMe" ? "active" : ""}
+                className={activeNavbar === "#ContactMe" ? "active" : ""}
             >
                 <BiMessageSquareDetail />
             </a>

@@ -2,9 +2,9 @@ import './AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <div id="AboutMe">
+        <section id="AboutMe">
             This is AboutMe
-        </div>
+        </section>
     );
 }
 
