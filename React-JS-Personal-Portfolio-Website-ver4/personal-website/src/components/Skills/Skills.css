@@ -1,0 +1,117 @@
+.skills__title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 550;
+    font-size: 50px;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.skills__container{
+    padding: 50px 200px 50px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.skills__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    max-width: 600px;
+}
+
+.skills__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.skills__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.skills__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.skill__details{
+    display: flex;
+    gap: 1rem;
+    padding: 12px 16px;
+    font-size: 18px;
+    /* align-items: center; */
+}
+
+.skills__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.skills__img {
+    width: 23px;
+    height: 20px;
+}
+
+/* h4 {
+    font-size: 1.17 rem;
+} */
+
+
+
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .skills__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills__content {
+        padding: 1rem;
+    }
+
+    .skills__title { 
+        margin-top: 25rem;
+    }
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+    .skills__container {
+        gap: 1rem;
+        max-width: 330px;
+        padding: 0;
+    }
+
+    .skills__container > div {
+        width: 100%;
+        padding: 2rem 0rem 2rem 0rem;
+        max-width: 330px;
+        text-align: center;
+    }
+    .skills__title {     
+        margin-top: 25rem;
+        text-align: center;
+    }
+}
+
