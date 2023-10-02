@@ -10,6 +10,16 @@ header {
     position: relative;
 }
 
+h1 {
+    font-weight: 550;
+    font-size: 50px;
+}
+
+h5 {
+    font-size: 0.95rem;
+    /* font-weight: lighter; */
+}
+
 /* ========= CTA ========= */
 .cta {
     margin-top: 2.5rem;
@@ -51,6 +61,10 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.home-img:hover{
+    transform: rotate(10deg);
+}
+
 /* ======== SCROLL DOWN ======== */
 .scroll__down {
     position: absolute;
@@ -60,6 +74,8 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+
 
 /* ======== MEDIA QUERY (MEDIUM DEVICES) ======== */
 @media screen and (max-width: 1024px) {

@@ -110,6 +110,7 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+    /* font-weight: 600; */
 }
 
 img {

@@ -2,9 +2,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <section>
             This is Footer
-        </div>
+        </section>
     );
 }
 
