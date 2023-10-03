@@ -53,7 +53,7 @@ const Skills = () => {
                             </div>
                         </article>
                         <article className="skill__details">
-                            <img className="skills__img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt="" />
+                            <img className="skills__img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt=">Material UI" />
                             <div>
                                 <h4>Material UI</h4>
                             </div>
