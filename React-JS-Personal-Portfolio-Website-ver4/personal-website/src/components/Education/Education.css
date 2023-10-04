@@ -7,3 +7,134 @@
     margin-bottom: 3rem;
     text-align: center;
 }
+
+.education__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.education {
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.education:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education__detail {
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 3rem 3rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 21.3px;
+}
+
+.education__description {
+    padding: 2rem;
+    /* padding-top: 70px; */
+}
+
+.education__description li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.education__description p {
+    font-size: 0.9rem;
+
+}
+
+.education__icon {
+    color: var(--color-primary);
+    margin-top: 2px;
+    font-size: 3.3rem;
+    padding: 0px 0px 30px 0px;
+}
+
+.education__img {
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+
+}
+
+.education__name {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.education__name__degree {
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: lightcyan;
+}
+
+.education__name__duration {
+    font-size: 12px;
+    font-weight: 400;
+    color: #626970;
+}
+
+
+
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+    .education__container {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .education__container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .education__title {
+        margin-top: 25rem;
+    }
+}
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+    .education__container {
+        gap: 3rem;
+        max-width: 330px;
+        padding: 0;
+    }
+
+    .education__container>div {
+        width: 100%;
+        padding: 2rem 0rem 2rem 0rem;
+        max-width: 330px;
+        text-align: center;
+    }
+
+    .education__title {
+        margin-top: 25rem;
+        text-align: center;
+    }
+
+    .education__detail {
+        display: flex;
+        gap: 1rem;
+        padding: 12px 16px;
+    }
+
+    .education__detail p {
+        font-size: 12px;
+    }
+}
