@@ -127,7 +127,7 @@ export const MobileMenu = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
     position: absolute;
     top: 80px;
     right: 0;

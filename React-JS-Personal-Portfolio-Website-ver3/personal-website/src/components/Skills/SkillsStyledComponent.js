@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
     max-width: 1100px;
     gap: 12px;
     @media (max-width: 960px) {
-    flex-direction: column;
+        flex-direction: column;
     }
 `
 
@@ -99,7 +99,10 @@ export const SkillItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
+    &:hover {
+        background-color: ${({ theme }) => theme.primary + 99};
+    }
     @media (max-width: 768px) {
         font-size: 14px;
         padding: 8px 12px;

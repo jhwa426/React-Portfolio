@@ -8,14 +8,15 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
 
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container>
-                <Wrapper>
+            <Container onClick={() => setOpenModal({ state: false, project: null })}>
+                <Wrapper >
                     <CloseRounded
                         style={{
                             position: "absolute",
                             top: "10px",
                             right: "20px",
                             cursor: "pointer",
+                            "font-size": "25px"
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
