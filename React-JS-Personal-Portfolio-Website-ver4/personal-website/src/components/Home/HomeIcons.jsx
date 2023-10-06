@@ -8,9 +8,9 @@ import { CgWebsite } from 'react-icons/cg';
 const HomeIcons = () => {
     return (
         <div className="header__socials">
-            <a href="https://github.com/jhwa426" target="_blank"><FaGithub /></a>
-            <a href="https://jeff-hwang.netlify.app/" target="_blank"><CgWebsite /></a>
-            <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank"><BsLinkedin /></a>
+            <a href="https://github.com/jhwa426" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a href="https://jeff-hwang.netlify.app/" target="_blank" rel="noopener noreferrer"><CgWebsite /></a>
+            <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
         </div>
     )
 }
