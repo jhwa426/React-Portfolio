@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Document = styled.img`
     display: none;
@@ -6,11 +6,12 @@ export const Document = styled.img`
     width: fit-content;
     background-color: #000;
     border-radius: 10px;
+    
     &:hover{
         cursor: pointer;
         opacity: 0.8;
     }
-`
+`;
 
 export const Description = styled.div`
     padding-top: 5px;
@@ -19,10 +20,12 @@ export const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
+    
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
-`
+`;
+
 
 export const Span = styled.span`
     overflow: hidden;
@@ -31,7 +34,7 @@ export const Span = styled.span`
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
-`
+`;
 
 export const Card = styled.div`
     width: 650px;
@@ -45,6 +48,8 @@ export const Card = styled.div`
     flex-direction: column;
     gap: 12px;
     transition: all 0.3s ease-in-out;
+    border: 0.1px solid #854CE6;
+
     &:hover{
         box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
         transform: translateY(-5px);
@@ -62,32 +67,31 @@ export const Card = styled.div`
     &:hover ${Span}{
         overflow: visible;
         -webkit-line-clamp: unset;
-
-    }
-    border: 0.1px solid #854CE6;
-`
+    }  
+`;
 
 export const Top = styled.div`
     width: 100%;
     display: flex;
     gap: 12px
-`
+`;
 
 export const Image = styled.img`
     height: 50px;
     background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
+    
     @media only screen and (max-width: 768px){
         height: 40px;
     }
-`
+`;
 
 export const Body = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column; 
-`
+`;
 
 
 export const Name = styled.div`
@@ -95,26 +99,29 @@ export const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
+    
     @media only screen and (max-width: 768px){
         font-size: 14px;
     }
-`
+`;
 
 export const Degree = styled.div`
 padding-bottom: 5px;
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
+    
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
-`
+`;
 
 export const Date = styled.div`
     font-size: 12px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 80};
+    
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
-`
+`;

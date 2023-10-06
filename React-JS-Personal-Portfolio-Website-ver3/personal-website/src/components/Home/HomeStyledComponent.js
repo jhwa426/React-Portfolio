@@ -6,15 +6,15 @@ export const HomeContainer = styled.div`
     justify-content: center;
     position: relative;
     padding: 80px 30px;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
     @media (max-width: 960px) {
         padding: 66px 16px;
     }
+    
     @media (max-width: 640) {
         padding: 32px 16px;
     }
-    z-index: 1;
-
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
 export const Title = styled.div`
@@ -22,6 +22,7 @@ export const Title = styled.div`
     font-size: 50px;
     color: ${({ theme }) => theme.text_primary};
     line-height: 68px;
+    
     @media (max-width: 960px) {
         text-align: center;
     }
@@ -50,6 +51,7 @@ export const HomeInnerContainer = styled.div`
 export const HomeLeftContainer = styled.div`
     width: 100%;
     order: 1;
+    
     @media (max-width: 960px) {
         order: 2;
         margin-bottom: 30px;
@@ -73,6 +75,7 @@ export const HomeRightContainer = styled.div`
     order: 2;
     justify-content: end;
     gap: 12px;
+    
     @media (max-width: 960px) {
         order: 1;
         justify-content: center;
@@ -138,9 +141,11 @@ export const TextLoop = styled.div`
     gap: 12px;
     color: ${({ theme }) => theme.text_primary};
     line-height: 68px;
+    
     @media (max-width: 960px) {
         text-align: center;
     }
+    
     @media (max-width: 640px) {
         font-size: 22px;
         line-height: 48px;
@@ -186,7 +191,6 @@ export const ContactMeButton = styled.a`
         padding: 12px 0;
         font-size: 18px;
     } 
-
 `;
 
 export const NavLink = styled.a`
@@ -195,6 +199,7 @@ export const NavLink = styled.a`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    
     :hover {
     color: ${({ theme }) => theme.primary};
     }

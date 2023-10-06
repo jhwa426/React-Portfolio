@@ -120,7 +120,6 @@ const Navbar = () => {
                             Contact
                         </MobileLink>
 
-                        {/* <br /> */}
                         <GitHubButton
                             style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }}
                             href={personal_info.github}

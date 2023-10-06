@@ -7,10 +7,11 @@ export const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    
     @media (max-width: 960px) {
         padding: 0px;
     }
-`
+`;
 
 export const Wrapper = styled.div`
     position: relative;
@@ -22,10 +23,11 @@ export const Wrapper = styled.div`
     max-width: 1350px;
     padding: 0px 0px 80px 0px;
     gap: 12px;
+    
     @media (max-width: 960px) {
         flex-direction: column;
     }   
-`
+`;
 
 export const Title = styled.div`
     padding-top: 100px;
@@ -34,6 +36,7 @@ export const Title = styled.div`
     font-weight: 600;
     margin-top: 20px;
     color: ${({ theme }) => theme.text_primary};
+    
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 32px;
@@ -45,6 +48,7 @@ export const Description = styled.div`
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
+    
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -62,14 +66,14 @@ export const ContactForm = styled.form`
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     margin-top: 28px;
     gap: 12px;
-`
+`;
 
 export const ContactTitle = styled.div`
     font-size: 24px;
     margin-bottom: 6px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
-`
+`;
 
 export const ContactInput = styled.input`
     flex: 1;
@@ -83,7 +87,7 @@ export const ContactInput = styled.input`
     &:focus {
         border: 1px solid ${({ theme }) => theme.primary};
     }
-`
+`;
 
 export const ContactInputMessage = styled.textarea`
     flex: 1;
@@ -97,7 +101,7 @@ export const ContactInputMessage = styled.textarea`
     &:focus {
         border: 1px solid ${({ theme }) => theme.primary};
     }
-`
+`;
 
 export const ContactSendButton = styled.input`
     width: 100%;
@@ -114,4 +118,4 @@ export const ContactSendButton = styled.input`
     color: ${({ theme }) => theme.text_primary};
     font-size: 18px;
     font-weight: 600;
-`
+`;

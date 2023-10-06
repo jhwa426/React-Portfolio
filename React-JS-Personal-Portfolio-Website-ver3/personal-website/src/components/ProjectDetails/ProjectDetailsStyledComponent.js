@@ -33,6 +33,7 @@ export const Title = styled.div`
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px 0px 6px;
+    
     @media only screen and (max-width: 600px) {
         font-size: 24px;
         margin: 6px 6px 0px 6px;
@@ -44,6 +45,7 @@ export const Date = styled.div`
     margin: 2px 6px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary};
+    
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -54,6 +56,7 @@ export const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
+    
     @media only screen and (max-width: 600px) {
         font-size: 14px;
         margin: 6px 6px;
@@ -73,6 +76,7 @@ export const Label = styled.div`
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
+    
     @media only screen and (max-width: 600px) {
         font-size: 16px;
         margin: 8px 6px;
@@ -83,6 +87,7 @@ export const Skills = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin: 8px 0px;
+    
     @media only screen and (max-width: 600px) {
         margin: 4px 0px;
     }
@@ -96,6 +101,7 @@ export const Skill = styled.div`
     padding: 4px 8px;
     border-radius: 8px;
     background-color: ${({ theme }) => theme.primary + 20};
+    
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -107,6 +113,7 @@ export const Members = styled.div`
     gap: 6px;
     flex-wrap: wrap;
     margin: 12px 6px;
+    
     @media only screen and (max-width: 600px) {
         margin: 4px 6px;
     }
@@ -125,6 +132,7 @@ export const MemberImage = styled.img`
     border-radius: 50%;
     margin-bottom: 4px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    
     @media only screen and (max-width: 600px) {
         width: 32px;
         height: 32px;
@@ -136,6 +144,7 @@ export const MemberName = styled.div`
     font-weight: 500;
     width: 200px;
     color: ${({ theme }) => theme.text_primary};
+    
     @media only screen and (max-width: 600px) {
         font-size: 14px;
     }
@@ -167,9 +176,11 @@ export const Button = styled.a`
     cursor: pointer;
     text-decoration: none;
     transition: all 0.5s ease;
+    
     &:hover {
         background-color: ${({ theme }) => theme.primary + 99};
     }
+    
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }

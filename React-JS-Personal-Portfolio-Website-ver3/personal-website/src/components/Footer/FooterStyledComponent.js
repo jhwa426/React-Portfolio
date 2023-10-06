@@ -33,6 +33,7 @@ export const NavItems = styled.nav`
     flex-direction: row;
     gap: 2rem;
     justify-content: center;
+    
     @media (max-width: 768px) {
         flex-wrap: wrap;
         gap: 1rem;
@@ -47,6 +48,7 @@ export const NavLink = styled.a`
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.2s ease-in-out;
+    
     &:hover {
         color: ${({ theme }) => theme.primary};
     }
@@ -66,6 +68,7 @@ export const SocialMediaIcon = styled.a`
     font-size: 1.5rem;
     color: ${({ theme }) => theme.text_primary};
     transition: color 0.2s ease-in-out;
+    
     &:hover {
         color: ${({ theme }) => theme.primary};
     }

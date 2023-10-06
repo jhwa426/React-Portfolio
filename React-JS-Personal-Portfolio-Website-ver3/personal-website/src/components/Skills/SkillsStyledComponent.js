@@ -63,6 +63,10 @@ export const Skill = styled.div`
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     border-radius: 16px;
     padding: 18px 36px;
+    &:hover{
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+    }
     @media (max-width: 768px) {
         max-width: 400px;
         padding: 10px 36px;

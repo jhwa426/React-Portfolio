@@ -1,4 +1,4 @@
-import { Button, Card, Image, Skill, Skills, Details, Title, Date, Description, Members, Avatar } from './ProjectCardStyledComponent';
+import { Button, Card, Image, Skill, Skills, Details, Title, Date, Description, Members, Member } from './ProjectCardStyledComponent';
 
 const ProjectCard = ({ project, setOpenModal }) => {
     return (
@@ -19,7 +19,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
 
             <Members>
                 {project.members?.map((member) => (
-                    <Avatar src={member.img} />
+                    <Member src={member.img} />
                 ))}
             </Members>
 
