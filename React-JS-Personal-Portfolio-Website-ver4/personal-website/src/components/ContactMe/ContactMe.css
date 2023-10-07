@@ -1,0 +1,13 @@
+.contactMe__title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 550;
+    font-size: 50px;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contactMe__container{
+
+}
