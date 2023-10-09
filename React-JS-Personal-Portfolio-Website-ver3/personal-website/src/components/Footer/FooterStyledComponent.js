@@ -19,10 +19,16 @@ export const FooterWrapper = styled.footer`
     color: ${({ theme }) => theme.text_primary};
 `;
 
-export const Logo = styled.h1`
+export const Logo = styled.a`
     font-weight: 600;
     font-size: 20px;
     color: ${({ theme }) => theme.primary};
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    
+    &:hover {
+        color: ${({ theme }) => theme.text_primary};
+    }
 `;
 
 export const NavItems = styled.nav`
@@ -35,9 +41,14 @@ export const NavItems = styled.nav`
     justify-content: center;
     
     @media (max-width: 768px) {
-        flex-wrap: wrap;
+        ${'' /* flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
+        text-align: center;
+        font-size: 12px; */}
+
+        flex-direction: column;
+        gap: 1.5rem;
         text-align: center;
         font-size: 12px;
     }

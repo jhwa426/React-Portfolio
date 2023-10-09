@@ -184,6 +184,149 @@ export const skills = [
 export const projects = [
     {
         id: 0,
+        title: "React-Portfolio",
+        date: "Jul 2023 - Present",
+        description: "React JS - Personal Portfolio Website ver 1",
+        descriptionDetails: [
+            "How to draw SVG animation using GSAP and React",
+            "How to animate letters on hover using Animate.css and React",
+            "How to add page loading animation using React-Loaders",
+            "How to add Pacman animation in React",
+            "How to create custom 3D CSS animations",
+            "How to implement font icons in React",
+            "How to create and implement contact form in React using EmailJS",
+            "How to add maps to your website in React using Leafleat.js",
+        ],
+        img: "./img/personal website1.png",
+        skills: [
+            "React JS",
+            "React Router",
+            "Redux",
+            "NEXT JS",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver1/website",
+        website: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver1/website",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+        ],
+    },
+
+    {
+        id: 1,
+        title: "React-Portfolio",
+        date: "Jul 2023 - Present",
+        description: "React JS - Personal Portfolio Website ver 2",
+        descriptionDetails: [
+            "How to draw SVG animation using GSAP and React",
+            "How to implement font icons in React",
+            "How to create and implement contact form in React using EmailJS",
+        ],
+        img: "./img/personal website2.png",
+        skills: [
+            "React JS",
+            "React Router",
+            "Redux",
+            "NEXT JS",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver2/personal-website",
+        website: "https://jeff-hwang2.netlify.app/",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+        ],
+    },
+    {
+        id: 2,
+        title: "React-Portfolio",
+        date: "Jul 2023 - Present",
+        description: "React JS - Personal Portfolio Website ver 3",
+        descriptionDetails: [
+            "How to draw SVG animation using GSAP and React",
+            "How to implement font icons in React",
+            "How to create Styled-components",
+            "Move faster with intuitive React UI tools",
+            "MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.",
+            "How to create and implement contact form in React using EmailJS",
+        ],
+        img: "./img/personal website3.png",
+        skills: [
+            "React JS",
+            "React Router",
+            "NEXT JS",
+            "Styled-Components",
+            "MUI libraries",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver3/personal-website",
+        website: "https://jeff-hwang.netlify.app/",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+        ],
+    },
+    {
+        id: 3,
+        title: "React-Portfolio",
+        date: "Jul 2023 - Present",
+        description: "React JS - Personal Portfolio Website ver 4",
+        descriptionDetails: [
+            "How to use the react icons library in the react projects",
+            "How to use react useState hooks",
+            "How to build modern website designs with CSS3",
+            "Move faster with intuitive React UI tools",
+            "MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.",
+            "How to add multiple contact options on the website (WhatsApp and Facebook Messenger)",
+            "How to create and implement contact form in React using EmailJS",
+        ],
+        img: "./img/personal website4.png",
+        skills: [
+            "React JS",
+            "React Router",
+            "NEXT JS",
+            "MUI libraries",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver4/personal-website",
+        website: "https://jeff-hwang3.netlify.app/",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+        ],
+    },
+
+    {
+        id: 4,
         title: "Bootcamp-Web Development",
         date: "Jan 2023 - July 2023",
         description: "Become a Full-Stack Web Developer",
@@ -225,78 +368,7 @@ export const projects = [
     },
 
     {
-        id: 1,
-        title: "React-Portfolio",
-        date: "Jul 2023 - Present",
-        description: "React JS - Personal Portfolio Website ver 1",
-        descriptionDetails: [
-            "How to draw SVG animation using GSAP and React",
-            "How to animate letters on hover using Animate.css and React",
-            "How to add page loading animation using React-Loaders",
-            "How to add Pacman animation in React",
-            "How to create custom 3D CSS animations",
-            "How to implement font icons in React",
-            "How to create and implement contact form in React using EmailJS",
-            "How to add maps to your website in React using Leafleat.js",
-        ],
-        img: "./img/personal website1.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux",
-            "NEXT JS",
-            "HTML5",
-            "CSS3",
-            "JavaScript"
-        ],
-        category: "web development",
-        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver1/website",
-        website: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver1/website",
-        members: [
-            {
-                name: "Jeff Hwang",
-                img: "./img/jeff.png",
-                github: "https://github.com/jhwa426",
-                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
-            },
-        ],
-    },
-
-    {
-        id: 2,
-        title: "React-Portfolio",
-        date: "Jul 2023 - Present",
-        description: "React JS - Personal Portfolio Website ver 2",
-        descriptionDetails: [
-            "How to draw SVG animation using GSAP and React",
-            "How to implement font icons in React",
-            "How to create and implement contact form in React using EmailJS",
-        ],
-        img: "./img/personal website2.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux",
-            "NEXT JS",
-            "HTML5",
-            "CSS3",
-            "JavaScript"
-        ],
-        category: "web development",
-        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver2/personal-website",
-        website: "https://jeff-hwang2.netlify.app/",
-        members: [
-            {
-                name: "Jeff Hwang",
-                img: "./img/jeff.png",
-                github: "https://github.com/jhwa426",
-                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
-            },
-        ],
-    },
-
-    {
-        id: 3,
+        id: 5,
         title: "React The complete guide 2023",
         date: "Jul 2023 - Present",
         description: "React Component, React Router & Redux",
@@ -341,7 +413,7 @@ export const projects = [
     },
 
     {
-        id: 4,
+        id: 6,
         title: "Big Data and Machine Learning",
         date: "Jul 2022 - Nov 2022",
         description: "Big Data, Data Mining / Machine Learning techniques",
@@ -377,7 +449,7 @@ export const projects = [
     },
 
     {
-        id: 5,
+        id: 7,
         title: "Object Oriented Software Development",
         date: "Jul 2021 - Nov 2021",
         description: "Java programming language, GUI programming and application-level multi-threading",
@@ -410,7 +482,7 @@ export const projects = [
     },
 
     {
-        id: 6,
+        id: 8,
         title: "Database",
         date: "Mar 2021 - Jul 2023",
         description: "SQL, MSSQL, MongoDB Database",
@@ -445,7 +517,7 @@ export const projects = [
     },
 
     {
-        id: 7,
+        id: 9,
         title: "Data Technologies",
         date: "Mar 2022 - Jul 2022",
         description: "R programming language at The University of Auckland",
@@ -478,7 +550,7 @@ export const projects = [
     },
 
     {
-        id: 8,
+        id: 10,
         title: "Python",
         date: "Mar 2020 - Nov 2020",
         description: "Python programming language, Data Structures, Algorithms",
