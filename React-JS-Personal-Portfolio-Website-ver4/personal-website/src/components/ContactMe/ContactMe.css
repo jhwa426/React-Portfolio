@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    padding-bottom: 100px;
 }
 
 .contactMe__options{

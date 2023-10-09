@@ -1,15 +1,6 @@
 export const projects = [
     {
         id: 0,
-        title: "Bootcamp-Web Development",
-        description: "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps.",
-        img: "./img/bootcamp-web development.png",
-        github: "https://github.com/jhwa426/Bootcamp-Web_Development",
-        website: "https://www.appbrewery.co/p/web-development-course-resources/",
-    },
-
-    {
-        id: 1,
         title: "React-Portfolio",
         description: "React JS - Personal Portfolio Website ver 1",
         img: "./img/personal website1.png",
@@ -18,7 +9,7 @@ export const projects = [
     },
 
     {
-        id: 2,
+        id: 1,
         title: "React-Portfolio",
         description: "React JS - Personal Portfolio Website ver 2",
         img: "./img/personal website2.png",
@@ -27,12 +18,21 @@ export const projects = [
     },
 
     {
-        id: 3,
+        id: 2,
         title: "React-Portfolio",
         description: "React JS - Personal Portfolio Website ver 3",
         img: "./img/personal website3.png",
         github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver3/personal-website",
         website: "https://jeff-hwang.netlify.app/",
+    },
+
+    {
+        id: 3,
+        title: "Bootcamp-Web Development",
+        description: "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps.",
+        img: "./img/bootcamp-web development.png",
+        github: "https://github.com/jhwa426/Bootcamp-Web_Development",
+        website: "https://www.appbrewery.co/p/web-development-course-resources/",
     },
 
     {

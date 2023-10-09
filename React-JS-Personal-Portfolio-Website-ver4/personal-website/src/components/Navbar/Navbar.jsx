@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { GiLaptop } from 'react-icons/gi';
-import { GoProjectSymlink } from 'react-icons/go';
-import { BiBook } from 'react-icons/bi';
-import { BiMessageSquareDetail } from 'react-icons/bi';
+import { PiProjectorScreenChartBold } from 'react-icons/pi';
+import { IoSchoolSharp } from 'react-icons/io5';
+import { AiOutlineMessage } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 
 
@@ -64,7 +64,7 @@ const Navbar = () => {
                 onClick={() => handleSetActive("Projects")}
                 className={activeNavbar === "Projects" ? "active" : ""}
             >
-                <GoProjectSymlink />
+                <PiProjectorScreenChartBold />
             </Link>
 
             <Link
@@ -76,7 +76,7 @@ const Navbar = () => {
                 onClick={() => handleSetActive("Education")}
                 className={activeNavbar === "Education" ? "active" : ""}
             >
-                <BiBook />
+                <IoSchoolSharp />
             </Link>
 
             <Link
@@ -88,57 +88,8 @@ const Navbar = () => {
                 onClick={() => handleSetActive("ContactMe")}
                 className={activeNavbar === "ContactMe" ? "active" : ""}
             >
-                <BiMessageSquareDetail />
+                <AiOutlineMessage />
             </Link>
-
-            {/* <a
-                href="#Home"
-                onClick={() => setActiveNavbar("#Home")}
-                className={activeNavbar === "#Home" ? "active" : ""}
-            >
-                <AiOutlineHome />
-            </a> 
-
-            <a
-                href="#AboutMe"
-                onClick={() => setActiveNavbar("#AboutMe")}
-                className={activeNavbar === "#AboutMe" ? "active" : ""}
-            >
-                <AiOutlineUser />
-            </a>
-
-            <a
-                href="#Skills"
-                onClick={() => setActiveNavbar("#Skills")}
-                className={activeNavbar === "#Skills" ? "active" : ""}
-            >
-                <GiLaptop />
-            </a>
-
-            <a
-                href="#Projects"
-                onClick={() => setActiveNavbar("#Projects")}
-                className={activeNavbar === "#Projects" ? "active" : ""}
-            >
-                <GoProjectSymlink />
-            </a>
-
-            <a
-                href="#Education"
-                onClick={() => setActiveNavbar("#Education")}
-                className={activeNavbar === "#Education" ? "active" : ""}
-            >
-                <BiBook />
-            </a>
-
-            <a
-                href="#ContactMe"
-                onClick={() => setActiveNavbar("#ContactMe")}
-                className={activeNavbar === "#ContactMe" ? "active" : ""}
-            >
-                <BiMessageSquareDetail />
-            </a> */}
-
         </nav >
     );
 }
