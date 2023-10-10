@@ -1,8 +1,35 @@
-# Getting Started with Create React App
+## React JS - Personal Portfolio Website_V4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Personal Portfolio Website_V4](https://jeff-hwang4.netlify.app/)
 
-## Available Scripts
+Website Deployment by [netlify](https://www.netlify.com/)
+
+Learn:
+
+- How to use the react icons library in the react projects
+- How to use react useState hooks
+- How to build modern website and responsive designs with CSS3
+- How to move faster with intuitive React UI tools
+- MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.
+- How to add multiple contact options on the website (Email, WhatsApp and Facebook Messenger)
+- How to create and implement contact form in React using EmailJS
+- How to deploy the website on Netlify
+
+<br>
+
+# Getting Started
+
+## Installation
+
+To run this portfolio locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/jhwa426/React-Portfolio.git`
+2. Navigate to the project directory: `cd React-JS-Personal-Portfolio-Website-ver4/personal-website`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
+
+<br>
 
 In the project directory, you can run:
 
@@ -38,33 +65,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
