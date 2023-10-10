@@ -232,11 +232,12 @@ Learn:
 
 - How to use the react icons library in the react projects
 - How to use react useState hooks
-- How to build modern website designs with CSS3
+- How to build modern website and responsive designs with CSS3
 - How to move faster with intuitive React UI tools
 - MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.
-- How to add multiple contact options on the website (WhatsApp and Facebook Messenger)
+- How to add multiple contact options on the website (Email, WhatsApp and Facebook Messenger)
 - How to create and implement contact form in React using EmailJS
+- How to deploy the website on Netlify
 
 <br>
 
