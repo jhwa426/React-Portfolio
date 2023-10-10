@@ -28,6 +28,15 @@ export const projects = [
 
     {
         id: 3,
+        title: "React-Portfolio",
+        description: "React JS - Personal Portfolio Website ver 4",
+        img: "./img/personal website4.png",
+        github: "https://github.com/jhwa426/React-Portfolio/tree/main/React-JS-Personal-Portfolio-Website-ver4/personal-website",
+        website: "https://jeff-hwang4.netlify.app/",
+    },
+
+    {
+        id: 4,
         title: "Bootcamp-Web Development",
         description: "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps.",
         img: "./img/bootcamp-web development.png",
@@ -36,7 +45,7 @@ export const projects = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "React The complete guide 2023",
         description: "React Component, React Router & Redux",
         img: "./img/react-the-complete-guide-2023.png",
@@ -45,7 +54,7 @@ export const projects = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Big Data and Machine Learning",
         description: "Big Data, Data Mining / Machine Learning techniques",
         img: "./img/uoa.jpg",
@@ -54,7 +63,7 @@ export const projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         title: "Object Oriented Software Development",
         description: "Java programming language, GUI programming and application-level multi-threading",
         img: "./img/uoa.jpg",
@@ -63,7 +72,7 @@ export const projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         title: "Database",
         description: "SQL, MSSQL, MongoDB Database",
         img: "./img/uoa.jpg",
@@ -72,7 +81,7 @@ export const projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         title: "Data Technologies",
         description: "R programming language at The University of Auckland",
         img: "./img/uoa.jpg",
@@ -81,7 +90,7 @@ export const projects = [
     },
 
     {
-        id: 9,
+        id: 10,
         title: "Python",
         description: "Python programming language, Data Structures, Algorithms",
         img: "./img/uoa.jpg",
