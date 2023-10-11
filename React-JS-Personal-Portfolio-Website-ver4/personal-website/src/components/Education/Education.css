@@ -104,7 +104,7 @@
     }
 
     .education__title {
-        margin-top: 25rem;
+        margin-top: 10rem;
     }
 }
 
@@ -124,7 +124,9 @@
     }
 
     .education__title {
-        margin-top: 5rem;
+        margin-top: 4.5rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
         text-align: center;
     }
 

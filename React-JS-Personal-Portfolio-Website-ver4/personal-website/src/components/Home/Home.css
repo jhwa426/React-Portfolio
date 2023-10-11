@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ h5 {
     border-radius: 12rem 12rem 0 0;
     /* border-radius: 160px; */
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 5rem 1.5rem 2.5rem 1.5rem;
 }
 
 .home-img:hover{
@@ -82,19 +82,26 @@ h5 {
     header {
         height: 102vh;
     }
-    /* .container {
-        background-color: red; 
-    } break point*/
+    .header__socials {
+        bottom: 10rem;
+    }
+    .scroll__down{
+        bottom: 10rem;
+    }
 }
 
 /* ======== MEDIA QUERY (SMALL DEVICES) ======== */
 @media screen and (max-width: 600px) {
     header {
-        height: 102vh; /* vh : viewport's height, vw : 1% of the viewport's width. */
+        height: 110vh; /* vh : viewport's height, vw : 1% of the viewport's width. */
     }
 
     .header__socials, .scroll__down {
         display: none;
+    }
+
+    .header__container {
+        bottom: 50px;
     }
 }
 

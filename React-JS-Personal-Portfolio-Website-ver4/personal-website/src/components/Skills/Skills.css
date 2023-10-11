@@ -76,6 +76,7 @@ h4 {
     .skills__container {
         grid-template-columns: 1fr;
         padding: 0;
+        padding-bottom: 100px;
     }
 
     .skills__container>div {
@@ -89,7 +90,7 @@ h4 {
     }
 
     .skills__title {
-        margin-top: 25rem;
+        margin-top: 10rem;
     }
 }
 
@@ -97,7 +98,7 @@ h4 {
 /* ============ MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
     .skills__container {
-        gap: 3rem;
+        gap: 2rem;
         max-width: 330px;
         padding: 0;
     }
@@ -110,7 +111,8 @@ h4 {
     }
 
     .skills__title {
-        margin-top: 25rem;
+        margin-top: 23rem;
+        padding-bottom: 0px;
         text-align: center;
     }
 }

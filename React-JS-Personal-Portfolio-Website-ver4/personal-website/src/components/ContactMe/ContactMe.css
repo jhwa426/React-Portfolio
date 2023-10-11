@@ -73,11 +73,18 @@ input, textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    .contactMe__title{
+        margin-top: 10rem;
+    }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
     .container.contactMe__container {
         width: var(--container-width-sm);
+    }
+    .contactMe__title{
+        margin-top: 75px;
+        padding-top: 0px;
     }
 }

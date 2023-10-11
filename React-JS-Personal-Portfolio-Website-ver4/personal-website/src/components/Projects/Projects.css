@@ -58,13 +58,16 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .projects__title {
+        margin-top: 10rem;
+    }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========= */
 @media screen and (max-width: 600px) {
     .projects__container {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2rem;
         max-width: 330px;
         padding: 0;
     }
@@ -76,7 +79,8 @@
     }
 
     .projects__title {
-        margin-top: 5rem;
+        margin-top: 4.5rem;
+        padding-bottom: 0px;
         text-align: center;
     }
 

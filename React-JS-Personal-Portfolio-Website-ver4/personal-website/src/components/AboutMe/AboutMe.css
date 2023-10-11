@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    padding-bottom: 100px;
 }
 
 .about__me {
@@ -51,16 +50,22 @@ h2 {
 
 /* ======== MEDIA QUERY (MEDIUM DEVICES) ======== */
 @media screen and (max-width: 1024px) {
+    section {
+        margin-top: 5rem;
+    }
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
     .about__me {
         width: 50%;
-        margin: 2rem auto 4rem;
+        margin: 0rem auto 2rem;
     }
     .about__content {
         margin: 1rem 0 1.5rem;
+    }
+    h2 {
+        margin-top: -4rem;
     }
 }
 
@@ -76,8 +81,13 @@ h2 {
     }
     .about__content {
         text-align: center;
+        margin-bottom: 4.3rem
     }
     .about__content p {
         margin: 1.5rem 0;
     }
+    h2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }    
 }
