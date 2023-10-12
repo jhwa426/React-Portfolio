@@ -1,10 +1,41 @@
-import { Nav } from "./MenuStyledComponent";
+import { Nav, NavLink } from "./MenuStyledComponent";
+import { AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineUser } from 'react-icons/ai';
+import { GiLaptop } from 'react-icons/gi';
+import { PiProjectorScreenChartBold } from 'react-icons/pi';
+import { IoSchoolSharp } from 'react-icons/io5';
+import { AiOutlineMessage } from 'react-icons/ai';
 
 const Menu = () => {
+
     return (
+
         <Nav>
-            test
+            <NavLink href="#Home">
+                <AiOutlineHome />
+            </NavLink>
+
+            <NavLink href="#AboutMe">
+                <AiOutlineUser />
+            </NavLink> {/* href="#AboutMe" === <div id="AboutMe"> */}
+
+            <NavLink href="#Skills">
+                <GiLaptop />
+            </NavLink>
+
+            <NavLink href="#Projects">
+                <PiProjectorScreenChartBold />
+            </NavLink>
+
+            <NavLink href="#Education">
+                <IoSchoolSharp />
+            </NavLink>
+
+            <NavLink href="#ContactMe">
+                <AiOutlineMessage />
+            </NavLink>
         </Nav>
+
     );
 }
 
