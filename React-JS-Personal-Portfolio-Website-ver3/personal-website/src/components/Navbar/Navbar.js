@@ -2,17 +2,13 @@ import React, { useState } from "react";
 import { useTheme } from "styled-components";
 import { GiLaptop } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink, Elements, ThemeLogo, NavText } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { personal_info } from '../../data/index';
-import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
-import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded';
-
 
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     const theme = useTheme();
-    const [darkMode, setDarkMode] = useState(false);
 
     return (
         <Nav>
@@ -23,24 +19,6 @@ const Navbar = () => {
                     >
                         <Span>Jeff Hwang</Span> <GiLaptop size="2rem" />
                     </a>
-
-                    {/* Test Light / Dark Mode Toggle */}
-
-                    {/* <ThemeLogo>
-                        {
-                            darkMode ?
-                                <Elements onClick={() => setDarkMode(false)}>
-                                    <LightModeRoundedIcon />
-                                </Elements>
-                                :
-                                <Elements onClick={() => setDarkMode(true)}>
-                                    <DarkModeRoundedIcon />
-                                </Elements>
-                        }
-                    </ThemeLogo> */}
-
-                    {/* Test Light / Dark Mode Toggle */}
-
                 </NavLogo>
 
                 <MobileIcon>

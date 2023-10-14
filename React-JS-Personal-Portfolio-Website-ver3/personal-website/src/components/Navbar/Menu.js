@@ -9,7 +9,6 @@ import { AiOutlineMessage } from 'react-icons/ai';
 const Menu = () => {
 
     return (
-
         <Nav>
             <NavLink href="#Home">
                 <AiOutlineHome />
@@ -17,7 +16,7 @@ const Menu = () => {
 
             <NavLink href="#AboutMe">
                 <AiOutlineUser />
-            </NavLink> {/* href="#AboutMe" === <div id="AboutMe"> */}
+            </NavLink>
 
             <NavLink href="#Skills">
                 <GiLaptop />
@@ -35,7 +34,6 @@ const Menu = () => {
                 <AiOutlineMessage />
             </NavLink>
         </Nav>
-
     );
 }
 

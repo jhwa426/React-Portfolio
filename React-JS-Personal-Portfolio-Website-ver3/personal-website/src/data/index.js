@@ -48,6 +48,11 @@ export const skills = [
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
             },
             {
+                name: "Styled-Components",
+                image:
+                    "./img/Styled-Components.png", //https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png
+            },
+            {
                 name: "Bootstrap",
                 image:
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",

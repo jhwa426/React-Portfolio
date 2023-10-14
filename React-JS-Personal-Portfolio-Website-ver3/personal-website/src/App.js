@@ -13,7 +13,7 @@ import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
-
+import ThemeButton from "./components/Navbar/ThemeButton";
 
 
 
@@ -38,6 +38,7 @@ function App() {
             <Router>
                 <Menu />
                 <Navbar />
+                <ThemeButton onClick={() => setDarkMode((prevDarkMode) => !prevDarkMode)} />
                 <Body>
                     <Home />
 
