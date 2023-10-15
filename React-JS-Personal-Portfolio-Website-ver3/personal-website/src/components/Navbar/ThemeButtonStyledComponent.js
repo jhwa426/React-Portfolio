@@ -5,7 +5,8 @@ import { Link as LinkR } from 'react-router-dom';
 export const ThemeLogo = styled(LinkR)`
     background: ${({ theme }) => theme.card_light};
     width: 100%;
-    padding: 0rem 14.13rem;
+    max-width: 1100px;
+    ${'' /* padding: 0rem 14.13rem; */}
 
     display: flex;
     justify-content: start;
@@ -14,9 +15,20 @@ export const ThemeLogo = styled(LinkR)`
     
 
 
-    @media (max-width: 640px) {
+    ${'' /* @media screen and (max-width: 1350px) {
+        position: relative;
+        padding: 0rem 0rem;
+    }
+    @media screen and (max-width: 768px) {
+        position: relative;
+        padding: 0rem 46.5rem;
+    }
+    @media screen and (max-width: 390px) {
+        position: relative;
+        padding: 0rem 23rem;
+    } */}
 
-}
+
 `;
 
 export const Elements = styled.div`
@@ -34,8 +46,8 @@ export const Elements = styled.div`
     :hover {
         color: ${({ theme }) => theme.primary};     
         }
-
+${'' /* 
     @media (max-width: 640px) {
         padding: 0 0px;
-}
+    } */}
 `;
