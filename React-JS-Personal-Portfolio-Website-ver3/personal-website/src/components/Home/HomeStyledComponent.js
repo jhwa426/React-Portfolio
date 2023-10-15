@@ -8,6 +8,7 @@ export const HomeContainer = styled.div`
     padding: 80px 30px;
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+    
     @media (max-width: 960px) {
         padding: 66px 16px;
     }

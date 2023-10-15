@@ -2,52 +2,59 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 
 
-export const ThemeLogo = styled(LinkR)`
+export const ThemeContainer = styled.div`
     background: ${({ theme }) => theme.card_light};
-    width: 100%;
-    max-width: 1100px;
-    ${'' /* padding: 0rem 14.13rem; */}
-
+    color: ${({ theme }) => theme.primary};
     display: flex;
-    justify-content: start;
-    align-items: center;
-    text-decoration: none;
-    
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 26.5rem;
+    z-index: 1;
 
-
-    ${'' /* @media screen and (max-width: 1350px) {
-        position: relative;
-        padding: 0rem 0rem;
+    @media (max-width: 1440px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 11.5rem;
+        padding-left: 0px;
     }
-    @media screen and (max-width: 768px) {
-        position: relative;
-        padding: 0rem 46.5rem;
-    }
-    @media screen and (max-width: 390px) {
-        position: relative;
-        padding: 0rem 23rem;
-    } */}
 
+    @media (max-width: 1366px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 9.5rem;
+        padding-left: 0px;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 4rem;
+        padding-left: 0px;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 0px;
+        padding-right: 1.5rem;
+    }
+
+    @media (max-width: 640px) {
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 0px;
+        padding-right: 1.5rem;
+    }
 
 `;
 
+export const ThemeLogo = styled(LinkR)`
+    color: ${({ theme }) => theme.text_secondary};
+;
+`;
+
 export const Elements = styled.div`
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 9.75rem;
-    background: ${({ theme }) => theme.card_light};
-    width: 100%;
-
-    ${'' /* flex-direction: row;
-    box-sizing: border-box;
-    align-items: center;
-    cursor: pointer; */}
-
     :hover {
-        color: ${({ theme }) => theme.primary};     
+        color: ${({ theme }) => theme.primary};
         }
-${'' /* 
-    @media (max-width: 640px) {
-        padding: 0 0px;
-    } */}
 `;

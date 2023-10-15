@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTheme } from "styled-components";
 import { GiLaptop } from 'react-icons/gi';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, NavLogo, Title, Span, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { personal_info } from '../../data/index';
 
 const Navbar = () => {
@@ -13,12 +13,10 @@ const Navbar = () => {
     return (
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">
-                    <a
-                        style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}
-                    >
+                <NavLogo href="#Home">
+                    <Title>
                         <Span>Jeff Hwang</Span> <GiLaptop size="2rem" />
-                    </a>
+                    </Title>
                 </NavLogo>
 
                 <MobileIcon>

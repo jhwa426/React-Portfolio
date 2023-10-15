@@ -28,7 +28,20 @@ export const NavbarContainer = styled.div`
     max-width: 1200px;
 `;
 
-export const NavLogo = styled(LinkR)`
+// export const NavLogo = styled(LinkR)`
+//     width: 80%;    
+//     padding: 0 6px;
+//     display: flex;
+//     justify-content: start;
+//     align-items: center;
+//     text-decoration: none;
+
+//     @media (max-width: 640px) {
+//     padding: 0 0px;
+// }
+// `;
+
+export const NavLogo = styled.a`
     width: 80%;    
     padding: 0 6px;
     display: flex;
@@ -125,6 +138,18 @@ export const ButtonContainer = styled.div`
     }
 `;
 
+export const Title = styled.a`
+    display: flex;
+    alignItems: center;
+    color: ${({ theme }) => theme.text_primary};
+    marginBottom: 20px;
+    cursor: pointer;
+
+    :hover {
+    color: ${({ theme }) => theme.primary};
+    }
+`;
+
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
@@ -203,6 +228,7 @@ export const MobileLink = styled.a`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    
     :hover {
         color: ${({ theme }) => theme.primary};
     }
