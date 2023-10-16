@@ -1,4 +1,4 @@
-import { Container, Wrapper, Title, Date, Description, Image, Label, Skills, Skill, Members, Member, MemberImage, MemberName, ButtonGroup, Button } from './ProjectDetailsStyledComponent';
+import { Container, Wrapper, Title, Date, Description, Image, Label, Skills, Skill, Members, Member, MemberImage, MemberName, MemberDetails, ButtonGroup, Button } from './ProjectDetailsStyledComponent';
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 
@@ -42,12 +42,12 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                                     <Member>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <MemberDetails href={member.github} target="_blank" rel="noopener noreferrer">
                                             <GitHub />
-                                        </a>
-                                        <a href={member.linkedin} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        </MemberDetails>
+                                        <MemberDetails href={member.linkedin} target="_blank" rel="noopener noreferrer">
                                             <LinkedIn />
-                                        </a>
+                                        </MemberDetails>
                                     </Member>
                                 ))}
                             </Members>

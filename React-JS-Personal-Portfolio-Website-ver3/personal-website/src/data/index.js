@@ -261,7 +261,7 @@ export const projects = [
         id: 2,
         title: "React-Portfolio",
         date: "Jul 2023 - Nov 2023",
-        description: "React JS - Personal Portfolio Website ver 3 (main)",
+        description: "React JS - Personal Portfolio Website main",
         descriptionDetails: [
             "How to draw SVG animation using GSAP and React",
             "How to implement font icons in React",
