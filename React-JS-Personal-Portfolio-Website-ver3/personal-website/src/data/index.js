@@ -190,7 +190,7 @@ export const projects = [
     {
         id: 0,
         title: "React-Portfolio",
-        date: "Jul 2023 - Present",
+        date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 1",
         descriptionDetails: [
             "How to draw SVG animation using GSAP and React",
@@ -228,7 +228,7 @@ export const projects = [
     {
         id: 1,
         title: "React-Portfolio",
-        date: "Jul 2023 - Present",
+        date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 2",
         descriptionDetails: [
             "How to draw SVG animation using GSAP and React",
@@ -260,7 +260,7 @@ export const projects = [
     {
         id: 2,
         title: "React-Portfolio",
-        date: "Jul 2023 - Present",
+        date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 3",
         descriptionDetails: [
             "How to draw SVG animation using GSAP and React",
@@ -296,7 +296,7 @@ export const projects = [
     {
         id: 3,
         title: "React-Portfolio",
-        date: "Jul 2023 - Present",
+        date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 4",
         descriptionDetails: [
             "How to use the react icons library in the react projects",

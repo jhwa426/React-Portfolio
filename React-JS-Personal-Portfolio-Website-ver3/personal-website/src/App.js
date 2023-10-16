@@ -1,10 +1,12 @@
 import './App.css';
 import { useState } from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
-import styled, { ThemeProvider } from 'styled-components';
+import { Body, Wrapper } from "./AppStyledComponent";
+import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
 import Menu from "./components/Navbar/Menu";
 import Navbar from "./components/Navbar/Navbar";
+import ThemeButton from "./components/Navbar/ThemeButton";
 import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
@@ -13,21 +15,8 @@ import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
-import ThemeButton from "./components/Navbar/ThemeButton";
 
 
-
-const Body = styled.div`
-    background-color: ${({ theme }) => theme.bg};
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-`
-const Wrapper = styled.div`
-    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
-    width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
-`
 
 function App() {
     const [darkMode, setDarkMode] = useState(true);
@@ -59,7 +48,6 @@ function App() {
                     </Wrapper>
 
                     <Footer />
-
 
                     {/* Project Details area */}
                     {

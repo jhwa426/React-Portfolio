@@ -1,4 +1,4 @@
-import { AboutMeContainer, AboutMeBg, AboutMeLeftContainer, Img, AboutMeRightContainer, AboutMeInnerContainer, Title, Description, CVButton } from './AboutMeStyledComponent';
+import { AboutMeContainer, AboutMeBg, AboutMeLeftContainer, Img, AboutMeRightContainer, AboutMeInnerContainer, Title, Description, LineBreak, CVButton } from './AboutMeStyledComponent';
 import { personal_info } from '../../data/index';
 import BgAnimation from '../BgAnimation/BgAnimation';
 
@@ -26,7 +26,7 @@ const AboutMe = () => {
                             With strong attention to detail, I consistently meet personal and professional goals on time and to excellent criteria.
                         </Description>
 
-                        <br />
+                        <LineBreak />
                         <Description>
                             You can find me on <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }}>Linkedin </a> or <a href="mailto:jeffhwa411@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "crimson" }} >email me</a>.
                         </Description>

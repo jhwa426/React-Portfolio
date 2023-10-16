@@ -16,7 +16,6 @@ export const AboutMeContainer = styled.div`
     @media (max-width: 640) {
         padding: 32px 16px;
     }
-
 `;
 
 export const AboutMeBg = styled.div`
@@ -154,6 +153,10 @@ export const Description = styled.div`
     }
 `;
 
+export const LineBreak = styled.br`
+    display: block;
+    margin: 10px 0;
+`;
 
 export const CVButton = styled.a`
     -webkit-appearance: button;
