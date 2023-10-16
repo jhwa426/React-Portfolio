@@ -261,7 +261,7 @@ export const projects = [
         id: 2,
         title: "React-Portfolio",
         date: "Jul 2023 - Nov 2023",
-        description: "React JS - Personal Portfolio Website ver 3",
+        description: "React JS - Personal Portfolio Website ver 3 (main)",
         descriptionDetails: [
             "How to draw SVG animation using GSAP and React",
             "How to implement font icons in React",
@@ -269,6 +269,8 @@ export const projects = [
             "Move faster with intuitive React UI tools",
             "MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.",
             "How to create and implement contact form in React using EmailJS",
+            "Theme customisation button features (dark / light)",
+            "Responsive navigation bar",
         ],
         img: "./img/personal website3.png",
         skills: [
