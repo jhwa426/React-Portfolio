@@ -28,6 +28,7 @@ function App() {
                 <Menu />
                 <Navbar />
                 <ThemeButton onClick={() => setDarkMode((prevDarkMode) => !prevDarkMode)} />
+
                 <Body>
                     <Home />
                     <Wrapper>
