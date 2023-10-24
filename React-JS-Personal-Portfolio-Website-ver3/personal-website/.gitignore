@@ -24,5 +24,7 @@ yarn-error.log*
 
 # authentication 
 .env
-.public
-.src
+
+
+/public
+/src
