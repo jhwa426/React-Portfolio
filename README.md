@@ -164,9 +164,9 @@ Learn:
 - How to implement font icons in React
 - How to create Styled-components
 - Move faster with intuitive React UI tools
-- MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.
+- MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components
 - How to create and implement contact form in React using EmailJS
-- Theme customisation button features (dark / light)",
+- Theme customisation button features (dark / light),
 - Responsive navigation bar
 
 <br>
