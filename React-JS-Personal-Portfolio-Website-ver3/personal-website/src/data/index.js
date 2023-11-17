@@ -599,7 +599,7 @@ export const education = [
         desc: "Big Data and Machine Learning, Database Systems, Data Analysis, Management, and Visualisation, Exploratory data Analysis, Capstone Project",
         school: "The University of Auckland, New Zealand",
         degree: "Bachelor of Science Major in Information and Technology Management",
-        date: "Mar 2020 – Nov 2023 (Expected)",
+        date: "Mar 2020 – Nov 2023",
     },
     {
         id: 1,
@@ -607,7 +607,7 @@ export const education = [
         desc: "Object Oriented Software Development, Agile Methodology, Computer Systems, Data Structures & Algorithms",
         school: "The University of Auckland, New Zealand",
         degree: "Bachelor of Science Software Development Module [COMPSCI 101, 130, 230, 235]",
-        date: "Mar 2020 – Nov 2023 (Expected)",
+        date: "Mar 2020 – Nov 2023",
     },
     {
         id: 2,

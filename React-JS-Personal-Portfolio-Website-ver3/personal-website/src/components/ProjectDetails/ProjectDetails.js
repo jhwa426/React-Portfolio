@@ -1,5 +1,5 @@
-import { Container, Wrapper, Title, Date, Description, Image, Label, Skills, Skill, Members, Member, MemberImage, MemberName, MemberDetails, ButtonGroup, Button } from './ProjectDetailsStyledComponent';
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+import { Container, StyledCloseIcon, Wrapper, Title, Date, Description, Image, Label, Skills, Skill, Members, Member, MemberImage, MemberName, MemberDetails, ButtonGroup, Button } from './ProjectDetailsStyledComponent';
+import { GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 
 
@@ -10,16 +10,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <Container onClick={() => setOpenModal({ state: false, project: null })}>
                 <Wrapper >
-                    <CloseRounded
-                        style={{
-                            position: "absolute",
-                            top: "10px",
-                            right: "20px",
-                            cursor: "pointer",
-                            "font-size": "25px"
-                        }}
-                        onClick={() => setOpenModal({ state: false, project: null })}
-                    />
+                    <StyledCloseIcon onClick={() => setOpenModal({ state: false, project: null })} />
                     <Image src={project?.img} />
                     <Title>{project?.title}</Title>
                     <Date>{project?.date}</Date>

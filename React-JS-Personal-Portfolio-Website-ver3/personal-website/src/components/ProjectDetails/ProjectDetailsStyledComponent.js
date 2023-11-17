@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import CloseRounded from '@mui/icons-material/CloseRounded';
 
 export const Container = styled.div`
     width: 100%;
@@ -26,6 +27,14 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
+`;
+
+export const StyledCloseIcon = styled(CloseRounded)`
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 25px;
 `;
 
 export const Title = styled.div`
