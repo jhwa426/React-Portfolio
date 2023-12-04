@@ -13,7 +13,7 @@ const Education = () => {
                         <div>
                             <p className="education__name">The University of Auckland, New Zealand</p>
                             <p className="education__name__degree">Bachelor of Science Major in Information and Technology Management</p>
-                            <p className="education__name__duration">Mar 2020 – Nov 2023 (Expected)</p>
+                            <p className="education__name__duration">Mar 2020 – Nov 2023</p>
                         </div>
                     </div>
                     <ul className="education__description">
@@ -30,7 +30,7 @@ const Education = () => {
                         <div>
                             <p className="education__name">The University of Auckland, New Zealand</p>
                             <p className="education__name__degree">Bachelor of Science Software Development Module [COMPSCI 101, 130, 230, 235]</p>
-                            <p className="education__name__duration">Mar 2020 – Nov 2023 (Expected)</p>
+                            <p className="education__name__duration">Mar 2020 – Nov 2023</p>
                         </div>
                     </div>
                     <ul className="education__description">
