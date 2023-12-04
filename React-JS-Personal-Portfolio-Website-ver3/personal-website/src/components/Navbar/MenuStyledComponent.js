@@ -4,7 +4,7 @@ export const Nav = styled.nav`
     background-color: ${({ theme }) => theme.bg};
     width: max-content;
     display: block;
-    padding: 0.5rem 1.0rem;
+    padding: 1.5rem 1.5rem;
     z-index: 2;
     position: fixed;
     left: 50%;

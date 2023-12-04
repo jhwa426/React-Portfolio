@@ -15,7 +15,7 @@ const AboutMe = () => {
                         <Title>About Me</Title>
 
                         <Description>
-                            Kia ora, welcome to my website! I'm an undergraduate student at the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }} >University of Auckland</a>, New Zealand.
+                            Kia ora, welcome to my website! I recently graduated with a Bachelor of Science in IT Management and Software Development module from the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }} >University of Auckland</a>, New Zealand.
                         </Description>
 
                         <Description>
