@@ -12,7 +12,7 @@ const AboutMe = () => {
                     <p className="section--title">About</p>
                     <h1 className="skills--section-heading">About Me</h1>
 
-                    <p className="intro--section--description">Kia ora, welcome to my website! I'm an undergraduate student at the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer">University of Auckland</a>.</p>
+                    <p className="intro--section--description">Kia ora, welcome to my website! I recently graduated with a Bachelor of Science in IT Management and Software Development module from the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer">University of Auckland</a>.</p>
                     <p className="intro--section--description">I am a highly motivated and organised individual who demonstrates the characteristics of independent and critical thinking through my university and work.</p>
                     <p className="intro--section--description">With strong attention to detail, I consistently meet personal and professional goals on time and to excellent criteria.</p>
                     <br />
