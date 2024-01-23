@@ -26,6 +26,10 @@ const AboutMe = () => {
                             I am passionate about integrating my expertise in software design, development and data analysis with solid leadership and culture-building skills. My goal is to contribute significantly to the success of the teams I engage with, leveraging a unique blend of technical proficiency and collaborative leadership to drive innovation and foster a positive work culture.
                         </Description>
 
+                        <Description>
+                            Look forward to the possibility of discussing how my skills and experiences align with your team's needs.
+                        </Description>
+
                         <LineBreak />
                         <Description>
                             You can find me on <a href="https://www.linkedin.com/in/jeffhwa411/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }}>Linkedin </a> or <a href="mailto:jeffhwa411@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "crimson" }} >email me</a>.

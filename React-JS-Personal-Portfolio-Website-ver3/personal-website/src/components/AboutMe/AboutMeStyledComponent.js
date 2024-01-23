@@ -84,6 +84,7 @@ export const AboutMeRightContainer = styled.div`
     order: 2;
     justify-content: end;
     gap: 12px;
+    margin-bottom: 400px;
     
     @media (max-width: 960px) {
         order: 1;
