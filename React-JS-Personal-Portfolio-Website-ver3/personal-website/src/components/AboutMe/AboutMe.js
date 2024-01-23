@@ -19,11 +19,11 @@ const AboutMe = () => {
                         </Description>
 
                         <Description>
-                            I am a highly motivated and organised individual who demonstrates the characteristics of independent and critical thinking through my university and work.
+                            I am a highly motivated and organised individual who demonstrates the characteristics of independent and critical thinking through my university and work. Continuous opportunities for growth and learning are invaluable for sustaining motivation and cultivating enduring interest.
                         </Description>
 
                         <Description>
-                            With strong attention to detail, I consistently meet personal and professional goals on time and to excellent criteria.
+                            I am passionate about integrating my expertise in software design, development and data analysis with solid leadership and culture-building skills. My goal is to contribute significantly to the success of the teams I engage with, leveraging a unique blend of technical proficiency and collaborative leadership to drive innovation and foster a positive work culture.
                         </Description>
 
                         <LineBreak />

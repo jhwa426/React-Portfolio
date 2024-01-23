@@ -7,7 +7,7 @@ const Skills = () => {
         <Container id="Skills">
             <Wrapper>
                 <Title>Skills</Title>
-                <Description>What I have skills</Description>
+                {/* <Description>What I have skills</Description> */}
                 <SkillsContainer>
                     {skills.map((skill) => (
                         <Skill>

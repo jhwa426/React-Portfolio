@@ -377,8 +377,8 @@ export const projects = [
 
     {
         id: 5,
-        title: "React The complete guide 2023",
-        date: "Jul 2023 - Present",
+        title: "React The complete guide 2023 - 2024",
+        date: "Jul 2023 - Jan 2024",
         description: "React Component, React Router & Redux",
         descriptionDetails: [
             "Learn React, Hooks, Redux, React Router, Next.js",
@@ -414,7 +414,7 @@ export const projects = [
             {
                 name: "Udemy",
                 img: "./img/udemy.png",
-                github: "https://github.com/jhwa426/React-The-Complete-Guide-2023",
+                github: "https://github.com/jhwa426/React-The-Complete-Guide-2024",
                 linkedin: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
             },
         ],
