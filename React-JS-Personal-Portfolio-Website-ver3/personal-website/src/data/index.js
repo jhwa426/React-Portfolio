@@ -116,7 +116,7 @@ export const skills = [
             {
                 name: "REST API",
                 image:
-                    "https://lh3.googleusercontent.com/-XvJzhz3pfH0/XjYG_xWkESI/AAAAAAAAJ9c/AYlgAtRknEU2W5fMcFhQoL6rmO8EBtIDQCK8BGAsYHg/s0/2020-02-01.png"
+                    "./img/REST API.png"
             },
             {
                 name: "Agile Methodology",
@@ -161,7 +161,7 @@ export const skills = [
             {
                 name: "Git",
                 image:
-                    "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
             },
             {
                 name: "Netlify",
@@ -176,12 +176,12 @@ export const skills = [
             {
                 name: "Postman",
                 image:
-                    "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+                    "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png",
             },
             {
                 name: "Figma",
                 image:
-                    "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+                    "./img/figma.png",
             },
         ],
     },
