@@ -10,7 +10,7 @@ const Menu = () => {
 
     return (
         <Nav>
-            <NavLink href="#Home">
+            <NavLink href="#Main">
                 <AiOutlineHome />
             </NavLink>
 

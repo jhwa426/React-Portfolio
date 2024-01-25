@@ -9,9 +9,9 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrapper>
-                <Logo href="#Home">Jeff Hwang 🇰🇷 🇳🇿</Logo>
+                <Logo href="/">Jeff Hwang 🇰🇷 🇳🇿</Logo>
                 <NavItems>
-                    <NavLink href="#Home">Home</NavLink>
+                    <NavLink href="#Main">Home</NavLink>
                     <NavLink href="#AboutMe">About</NavLink>
                     <NavLink href="#Skills">Skills</NavLink>
                     <NavLink href="#Projects">Projects</NavLink>
