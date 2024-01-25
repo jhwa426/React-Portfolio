@@ -1,4 +1,4 @@
-import { Container, Wrapper, Title, Description, ToggleButtonGroup, ToggleButton, Divider, CardContainer } from './ProjectsStyledComponent';
+import { Container, Wrapper, Title, ToggleButtonGroup, ToggleButton, Divider, CardContainer } from './ProjectsStyledComponent';
 import { useState } from 'react';
 import { projects } from '../../data/index';
 import ProjectCard from "../Cards/ProjectCard";

@@ -8,8 +8,13 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
 
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container onClick={() => setOpenModal({ state: false, project: null })}>
-                <Wrapper >
+            <Container
+                onClick={() => setOpenModal({ state: false, project: null })}
+                initial={{ opacity: 0, y: -30 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -30 }}
+            >
+                <Wrapper>
                     <StyledCloseIcon onClick={() => setOpenModal({ state: false, project: null })} />
                     <Image src={project?.img} />
                     <Title>{project?.title}</Title>

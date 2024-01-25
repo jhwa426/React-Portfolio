@@ -1,4 +1,4 @@
-import { Container, Wrapper, Title, Description, TimelineSection } from './EducationStyledComponent';
+import { Container, Wrapper, Title, TimelineSection } from './EducationStyledComponent';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -18,7 +18,7 @@ const Education = () => {
                 <TimelineSection>
                     <Timeline>
                         {education.map((information) => (
-                            <TimelineItem >
+                            <TimelineItem key={information.id}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
                                     <TimelineConnector style={{ background: '#854CE6' }} />

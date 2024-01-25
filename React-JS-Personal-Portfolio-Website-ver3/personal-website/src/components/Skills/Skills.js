@@ -1,4 +1,4 @@
-import { Container, Wrapper, Title, Description, SkillsContainer, Skill, SkillTitle, SkillList, SkillItem, SkillImage } from "./SkillsStyledComponent";
+import { Container, Wrapper, Title, SkillsContainer, Skill, SkillTitle, SkillList, SkillItem, SkillImage } from "./SkillsStyledComponent";
 import { skills } from '../../data/index';
 
 

@@ -14,6 +14,7 @@ Learn:
 - How to create and implement contact form in React using EmailJS
 - Theme customisation button features (dark / light)
 - Responsive navigation bar
+- Framer Motion animation library for the project card
   <br>
 
 # Getting Started
