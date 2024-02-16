@@ -14,6 +14,7 @@ export const Nav = styled.nav`
     border: 1px solid #854CE6;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    
 
     @media screen and (max-width: 1350px) {
         display: flex;
@@ -30,7 +31,7 @@ export const NavLink = styled.a`
     padding: 1rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: ${({ theme }) => theme.text_primary};
     font-size: 1.1rem;
 
     :hover {
@@ -41,3 +42,4 @@ export const NavLink = styled.a`
         color: ${({ theme }) => theme.primary};
     } */}
 `;
+
