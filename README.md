@@ -27,7 +27,7 @@ Learn:
 - How to add Pacman animation in React
 - How to create custom 3D CSS animations
 - How to implement font icons in React
-- How to create and implement contact form in React using EmailJS
+- How to create and implement a contact form in React using EmailJS
 - How to add maps to your website in React using Leafleat.js
 
 <br>
@@ -95,7 +95,7 @@ Learn:
 
 - How to draw SVG animation using GSAP and React
 - How to implement font icons in React
-- How to create and implement contact form in React using EmailJS
+- How to create and implement a contact form in React using EmailJS
 
 <br>
 
@@ -165,8 +165,8 @@ Learn:
 - How to create Styled-components
 - Move faster with intuitive React UI tools
 - MUI libraries offer a comprehensive suite of free UI tools to help you ship new features faster.
-- How to create and implement contact form in React using EmailJS
-- Theme customisation button features (Dark / Light),
+- How to create and implement a contact form in React using EmailJS
+- Theme customisation button features (Dark / Light)
 - Responsive navigation bar
 
 <br>
@@ -238,7 +238,7 @@ Learn:
 - How to move faster with intuitive React UI tools
 - MUI libraries offer a comprehensive suite of free UI tools to help you ship new features faster.
 - How to add multiple contact options on the website (Email, WhatsApp and Facebook Messenger)
-- How to create and implement contact form in React using EmailJS
+- How to create and implement a contact form in React using EmailJS
 - How to deploy the website on Netlify
 
 <br>
