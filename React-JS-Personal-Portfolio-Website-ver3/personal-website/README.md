@@ -6,16 +6,16 @@ Website Deployment by [netlify](https://www.netlify.com/)
 
 Learn:
 
-- How to draw SVG animation using GSAP and React
 - How to implement font icons in React
 - How to create Styled-components
 - Move faster with intuitive React UI tools
-- MUI libraries offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components
-- How to create and implement contact form in React using EmailJS
-- Theme customisation button features (dark / light)
+- MUI libraries offer a comprehensive suite of free UI tools to help you ship new features faster.
+- How to create and implement a contact form in React using EmailJS
+- Theme customisation button features (Dark / Light)
 - Responsive navigation bar
 - Framer Motion animation library for the project card
-  <br>
+
+<br>
 
 # Getting Started
 
