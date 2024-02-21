@@ -6,7 +6,7 @@ import { Snackbar } from '@mui/material';
 const ContactMe = () => {
 
     //hooks
-    const [open, setOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     // Email JS API
     const refForm = useRef();
@@ -33,7 +33,7 @@ const ContactMe = () => {
 
             .then(
                 (result) => {
-                    setOpen(true);
+                    setIsOpen(true);
                     refForm.current.reset();
                 },
                 (error) => {
@@ -76,9 +76,9 @@ const ContactMe = () => {
                 </ContactForm>
 
                 <Snackbar
-                    open={open}
+                    open={isOpen}
                     autoHideDuration={6000}
-                    onClose={() => setOpen(false)}
+                    onClose={() => setIsOpen(false)}
                     message="Message successfully sent!"
                     severity="success"
                 />

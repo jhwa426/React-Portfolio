@@ -6,20 +6,20 @@ import { Modal } from '@mui/material';
 const ProjectDetails = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
 
-    const handleClose = () => {
+    const closeHandler = () => {
         setOpenModal({ state: false, project: null });
     };
 
     return (
-        <Modal open={true} onClose={handleClose}>
+        <Modal open={true} onClose={closeHandler}>
             <Container
-                onClick={handleClose}
-                initial={{ opacity: 0, y: -80 }}
+                onClick={closeHandler}
+                initial={{ opacity: 0, y: -50 }} //initial={{ opacity: 0, y: -80 }}
                 animate={{ opacity: 1, y: 0 }}
             // exit={{ opacity: 0, y: -30 }}
             >
                 <Wrapper>
-                    <StyledCloseIcon onClick={handleClose} />
+                    <StyledCloseIcon onClick={closeHandler} />
                     <Image src={project?.img} />
                     <Title>{project?.title}</Title>
                     <Date>{project?.date}</Date>
