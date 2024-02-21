@@ -14,7 +14,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
         <Modal open={true} onClose={closeHandler}>
             <Container
                 onClick={closeHandler}
-                initial={{ opacity: 0, y: -50 }} //initial={{ opacity: 0, y: -80 }}
+                initial={{ opacity: 0, y: -80 }}
                 animate={{ opacity: 1, y: 0 }}
             // exit={{ opacity: 0, y: -30 }}
             >
