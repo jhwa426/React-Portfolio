@@ -427,7 +427,7 @@ export const projects = [
 
     {
         id: 6,
-        title: "Big Data and Machine Learning",
+        title: "Data Analysis",
         date: "Jul 2022 - Nov 2022",
         description: "Big Data, Data Mining / Machine Learning techniques",
         descriptionDetails: [
@@ -444,7 +444,7 @@ export const projects = [
         ],
         category: "data science",
         github: "https://github.com/jhwa426/Big-Data-and-Machine-Learning",
-        website: "https://github.com/jhwa426/Big-Data-and-Machine-Learning", //google colab link connect later!
+        website: "https://colab.research.google.com/drive/1fVpyzKzi1Gp6nageB4kf9VTYVqRRc6iV?usp=sharing", //google colab link connect later!
         members: [
             {
                 name: "Jeff Hwang",
