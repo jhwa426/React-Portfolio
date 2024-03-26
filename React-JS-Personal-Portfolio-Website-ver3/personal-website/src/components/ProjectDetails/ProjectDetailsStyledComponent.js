@@ -161,7 +161,7 @@ export const MemberName = styled.div`
 `;
 
 export const MemberDetails = styled.a`
-    textDecoration: none; 
+    text-decoration: none;
     color: inherit;
 `;
 
