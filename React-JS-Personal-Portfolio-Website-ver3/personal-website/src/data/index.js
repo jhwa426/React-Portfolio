@@ -344,22 +344,18 @@ export const projects = [
         date: "Jan 2023 - July 2023",
         description: "Become a Full-Stack Web Developer",
         descriptionDetails: [
-            "Become a Full-Stack Web Developer with HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps."
+            "Become a Full-Stack Web Developer with HTML5, CSS3, Javascript, React JS, Node JS, Express JS, MongoDB, REST API, Git, Web3 and DApps."
         ],
         img: "./img/bootcamp-web development.png",
         skills: [
             "HTML5",
             "CSS3",
-            "Bootstrap",
             "JavaScript",
-            "JQuery",
             "React JS",
             "MongoDB",
             "Node JS",
             "Express JS",
             "Git",
-            "REST API",
-            "Web Design"
         ],
         category: "bootcamp",
         github: "https://github.com/jhwa426/Bootcamp-Web_Development",
@@ -399,7 +395,7 @@ export const projects = [
         img: "./img/react-the-complete-guide-2023.png",
         skills: [
             "React JS",
-            "React Router",
+            "React Hooks/Router",
             "Redux",
             "NEXT JS",
             "HTML5",
@@ -474,6 +470,8 @@ export const projects = [
         skills: [
             "JAVA",
             "Eclipse",
+            "Multi-threading",
+
         ],
         category: "object oriented program",
         github: "https://github.com/jhwa426/Java",
@@ -540,7 +538,7 @@ export const projects = [
         ],
         img: "./img/uoa.jpg",
         skills: [
-            "R",
+            "R for Statistical Computing",
             "SQLite",
         ],
         category: "data science",
@@ -576,6 +574,8 @@ export const projects = [
             "Python",
             "Data Structures",
             "Algorithms",
+            "GUI programming",
+
         ],
         category: "data science",
         github: "https://github.com/jhwa426/Python",

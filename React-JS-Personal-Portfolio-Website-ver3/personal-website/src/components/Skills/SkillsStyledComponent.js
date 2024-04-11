@@ -18,13 +18,14 @@ export const Wrapper = styled.div`
     width: 100%;
     max-width: 1100px;
     gap: 12px;
+    margin: 50px 0px 100px 0px;
+
     @media (max-width: 960px) {
         flex-direction: column;
     }
 `
 
 export const Title = styled.div`
-    padding-top: 100px;
     font-size: 42px;
     text-align: center;
     font-weight: 600;

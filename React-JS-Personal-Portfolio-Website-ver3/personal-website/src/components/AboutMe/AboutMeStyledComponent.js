@@ -5,7 +5,8 @@ export const AboutMeContainer = styled.div`
     display: flex;
     justify-content: center;
     position: relative;
-    padding: 80px 30px;
+    /* padding: 80px 30px; */
+    padding: 80px 0px 150px 0px;
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
     

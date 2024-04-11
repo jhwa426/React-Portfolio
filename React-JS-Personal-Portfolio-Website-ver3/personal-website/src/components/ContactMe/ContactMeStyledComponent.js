@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 0px 0px 80px 0px;
+    margin: 50px 0px 100px 0px;
     gap: 12px;
     
     @media (max-width: 960px) {
@@ -30,7 +30,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
-    padding-top: 100px;
     font-size: 42px;
     text-align: center;
     font-weight: 600;
