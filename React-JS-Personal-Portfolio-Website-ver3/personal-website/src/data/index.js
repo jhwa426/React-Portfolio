@@ -340,7 +340,7 @@ export const projects = [
 
     {
         id: 4,
-        title: "Bootcamp-Web Development",
+        title: "Udemy Bootcamp-Web Development",
         date: "Jan 2023 - July 2023",
         description: "Become a Full-Stack Web Developer",
         descriptionDetails: [
@@ -382,7 +382,7 @@ export const projects = [
 
     {
         id: 5,
-        title: "React The complete guide 2023 - 2024",
+        title: "Udemy Bootcamp-React The complete guide 2023 - 2024",
         date: "Jul 2023 - Jan 2024",
         description: "React Component, React Router & Redux",
         descriptionDetails: [
