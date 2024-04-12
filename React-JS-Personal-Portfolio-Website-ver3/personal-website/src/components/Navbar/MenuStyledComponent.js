@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     z-index: 2;
     position: fixed;
     left: 50%;
-    transform: translate(-800%, -80%); ${'' /* transform: translateX(-50%); */}
+    transform: translate(-800%, -80%); /* transform: translateX(-50%); */
     bottom:  2rem;
     gap: 0.4rem;
     border: 1px solid #854CE6;
@@ -16,7 +16,7 @@ export const Nav = styled.nav`
     backdrop-filter: blur(15px);
     
 
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 1440px) {
         display: flex;
         transform: translateX(-50%);
         padding: 0.5rem 1.7rem;
