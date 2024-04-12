@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
     gap: 12px;
     margin: 50px 0px 100px 0px;
 
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         flex-direction: column;
     }
 `

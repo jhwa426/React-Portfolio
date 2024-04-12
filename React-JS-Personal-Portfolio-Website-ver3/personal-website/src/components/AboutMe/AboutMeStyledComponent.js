@@ -10,7 +10,7 @@ export const AboutMeContainer = styled.div`
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
     
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         padding: 66px 16px;
     }
     
@@ -38,7 +38,7 @@ export const AboutMeBg = styled.div`
     transform: translateX(-50%) translateY(-50%);
     padding-top: 100px;
 
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         justify-content: center;
         padding: 0 0px;
         padding-top: 20px;
@@ -53,7 +53,7 @@ export const AboutMeInnerContainer = styled.div`
     width: 100%;
     max-width: 1100px;
 
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         flex-direction: column;
     }
 `;
@@ -62,7 +62,7 @@ export const AboutMeLeftContainer = styled.div`
     width: 100%;
     order: 1;
     
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         order: 2;
         margin-bottom: 30px;
         display: flex;
@@ -87,7 +87,7 @@ export const AboutMeRightContainer = styled.div`
     gap: 12px;
     margin-bottom: 400px;
     
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         order: 1;
         justify-content: center;
         align-items: center;
@@ -128,7 +128,7 @@ export const Title = styled.div`
     color: ${({ theme }) => theme.text_primary};
     line-height: 68px;
     
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         text-align: center;
     }
 
@@ -145,7 +145,7 @@ export const Description = styled.div`
     margin-bottom: 42px;
     color: ${({ theme }) => theme.text_primary + 95};
 
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         text-align: center;
     }
 

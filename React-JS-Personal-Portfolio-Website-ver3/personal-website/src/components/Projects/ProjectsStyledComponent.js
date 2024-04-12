@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     margin: 50px 0px 100px 0px;
     gap: 12px;
     
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         flex-direction: column;
     }
 `;
@@ -103,7 +103,7 @@ export const CardContainer = styled.div`
     grid-gap: 32px;
     grid-auto-rows: minmax(100px, auto);
     
-    @media (max-width: 960px) {
+    @media (max-width: 1024px) {
         grid-template-columns: repeat(2, 1fr);
     }
     
