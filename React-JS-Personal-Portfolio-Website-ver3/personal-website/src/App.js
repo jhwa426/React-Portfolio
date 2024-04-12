@@ -30,7 +30,10 @@ function App() {
                 <ThemeButton onClick={() => setDarkMode((prevDarkMode) => !prevDarkMode)} />
 
                 <Body>
-                    <Home />
+                    <Wrapper>
+                        <Home />
+                    </Wrapper>
+
                     <Wrapper>
                         <AboutMe />
                     </Wrapper>

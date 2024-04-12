@@ -10,6 +10,7 @@ const Home = () => {
                 <HomeBg>
                     <BgAnimation />
                 </HomeBg>
+
                 <HomeInnerContainer>
                     <HomeLeftContainer id="Left">
                         <Title>Hello, I am

@@ -5,7 +5,7 @@ export const HomeContainer = styled.div`
     display: flex;
     justify-content: center;
     position: relative;
-    padding: 80px 30px;
+    padding: 150px 30px; // 80px 30px
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
     
@@ -122,7 +122,7 @@ export const HomeBg = styled.div`
     height: 100%;
     max-width: 1360px;
     overflow: hidden;
-    padding: 0 30px;
+    padding: 80px 80px; //0 30px
     top: 50%;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
