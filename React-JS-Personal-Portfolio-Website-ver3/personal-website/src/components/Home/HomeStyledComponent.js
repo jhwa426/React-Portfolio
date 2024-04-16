@@ -130,9 +130,16 @@ export const HomeBg = styled.div`
 
     @media (max-width: 960px) {
         justify-content: center;
-        padding: 0 0px;
-        padding-top: 20px;
+        margin: -100px 0 0;
+        /* padding: 0 0px;
+        padding-top: 20px; */
     }
+
+    @media (max-width: 640px) {
+        justify-content: center;
+        margin: 0;
+    }
+
 `;
 
 export const TextLoop = styled.div`
