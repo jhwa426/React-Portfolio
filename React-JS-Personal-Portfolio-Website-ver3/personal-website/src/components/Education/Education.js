@@ -13,7 +13,7 @@ const Education = () => {
     return (
         <Container id="Education">
             <Wrapper>
-                <Title>Education</Title>
+                <Title>EDUCATION</Title>
                 {/* <Description>Education in New Zealand</Description> */}
                 <TimelineSection>
                     <Timeline>

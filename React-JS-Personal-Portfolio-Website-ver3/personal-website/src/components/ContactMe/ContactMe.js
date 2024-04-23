@@ -47,7 +47,7 @@ const ContactMe = () => {
     return (
         <Container id="ContactMe">
             <Wrapper>
-                <Title>Contact Me</Title>
+                <Title>CONTACT ME</Title>
                 <Description>Flick me a quick message :)</Description>
                 <ContactForm ref={refForm} onSubmit={sendEmail}>
                     <ContactTitle>Get In Touch 🚀</ContactTitle>
