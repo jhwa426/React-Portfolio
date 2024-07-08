@@ -3,9 +3,8 @@ export const personal_info = {
     roles: [
         "Software Developer",
         "Frontend Developer",
-        "Programmer",
+        "Full-Stack Developer",
         "Data Engineer",
-        "Data Analyst",
     ],
     github: "https://github.com/jhwa426",
     cv: "https://drive.google.com/file/d/1EOfcupxyTn2krgEauEBoNx4yhi4zvPip/view?usp=drive_link",
@@ -195,6 +194,37 @@ export const skills = [
 export const projects = [
     {
         id: 0,
+        title: "Full-Stack Football Booking Management System",
+        date: "June 2024 - July 2024",
+        description: "Indoor/Outdoor Football Booking Management System",
+        descriptionDetails: [
+            "Developed a Full-Stack Football Booking Management System utilising React JS",
+            "Implemented routing & route-related data fetching with React Router",
+            "Built standalone React apps & applications connected to a backend via HTTP",
+            "Facilitated the development of React applications with backend connectivity via HTTP and incorporated user authentication",
+        ],
+        img: "./img/working on it.png",
+        skills: [
+            "React JS/React Hooks/Router",
+            "MongoDB",
+            "Node JS/Express",
+            "HTML/CSS3/JavaScript",
+        ],
+        category: "web development",
+        github: "https://github.com/jhwa426/Booking-System",
+        website: "https://github.com/jhwa426/Booking-System",
+        members: [
+            {
+                name: "Jeff Hwang",
+                img: "./img/jeff.png",
+                github: "https://github.com/jhwa426",
+                linkedin: "https://www.linkedin.com/in/jeffhwa411/",
+            },
+        ],
+    },
+
+    {
+        id: 1,
         title: "React-Portfolio",
         date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 1",
@@ -232,7 +262,7 @@ export const projects = [
     },
 
     {
-        id: 1,
+        id: 2,
         title: "React-Portfolio",
         date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 2",
@@ -264,7 +294,7 @@ export const projects = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: "React-Portfolio",
         date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website main",
@@ -302,7 +332,7 @@ export const projects = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         title: "React-Portfolio",
         date: "Jul 2023 - Nov 2023",
         description: "React JS - Personal Portfolio Website ver 4",
@@ -339,7 +369,7 @@ export const projects = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Udemy Bootcamp-Web Development",
         date: "Jan 2023 - July 2023",
         description: "Become a Full-Stack Web Developer",
@@ -377,7 +407,7 @@ export const projects = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Udemy Bootcamp-React The complete guide 2023 - 2024",
         date: "Jul 2023 - Jan 2024",
         description: "React Component, React Router & Redux",
@@ -422,7 +452,7 @@ export const projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         title: "Data Analysis",
         date: "Jul 2022 - Nov 2022",
         description: "Big Data, Data Mining / Machine Learning techniques",
@@ -458,7 +488,7 @@ export const projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         title: "Object Oriented Software Development",
         date: "Jul 2021 - Nov 2021",
         description: "Java programming language, GUI programming and application-level multi-threading",
@@ -493,7 +523,7 @@ export const projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         title: "Database",
         date: "Mar 2021 - Jul 2023",
         description: "SQL, MSSQL, MongoDB Database",
@@ -528,7 +558,7 @@ export const projects = [
     },
 
     {
-        id: 9,
+        id: 10,
         title: "Data Technologies",
         date: "Mar 2022 - Jul 2022",
         description: "R programming language at The University of Auckland",
@@ -561,7 +591,7 @@ export const projects = [
     },
 
     {
-        id: 10,
+        id: 11,
         title: "Python",
         date: "Mar 2020 - Nov 2020",
         description: "Python programming language, Data Structures, Algorithms",
