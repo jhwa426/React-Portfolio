@@ -54,7 +54,7 @@ const Footer = () => {
                 </SocialMediaIcons>
                 <Copyright>
                     &copy; 2024 Jeff Hwang
-                    {/* All rights reserved. */}
+                    All rights reserved.
                 </Copyright>
             </FooterWrapper>
         </FooterContainer>

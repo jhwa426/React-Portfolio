@@ -55,8 +55,8 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                     )}
 
                     <ButtonGroup>
-                        <Button href={project?.github} target="_blank" rel="noopener noreferrer">View the code</Button>
                         <Button href={project?.website} target="_blank" rel="noopener noreferrer">View the project</Button>
+                        <Button href={project?.github} target="_blank" rel="noopener noreferrer">View the code</Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>

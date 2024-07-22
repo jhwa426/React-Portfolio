@@ -23,7 +23,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
                 ))}
             </Members>
 
-            <Button>View Project</Button>
+            <Button>View Detail</Button>
         </Card>
     );
 }
