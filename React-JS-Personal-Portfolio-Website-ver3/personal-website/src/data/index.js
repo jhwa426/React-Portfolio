@@ -205,7 +205,7 @@ export const projects = [
             "Payment Methods API (stripe JS)",
             "UI development (React Bootstrap, React Spinners, SweetAlert2)",
         ],
-        img: "./img/football.bookin.png",
+        img: "./img/football.booking.png",
         skills: [
             "React JS/React Hooks/Router",
             "MongoDB",
