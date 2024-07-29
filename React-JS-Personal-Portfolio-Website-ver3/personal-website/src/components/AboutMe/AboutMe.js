@@ -15,7 +15,7 @@ const AboutMe = () => {
                         <Title>ABOUT ME</Title>
 
                         <Description>
-                            Kia ora, welcome to my website! I recently graduated with a Bachelor of Science in IT Management and Software Development module from the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }} >University of Auckland</a>, New Zealand.
+                            Kia ora, welcome to my website! I graduated with a Bachelor of Science in IT Management and Software Development module from the <a href="https://www.auckland.ac.nz/" target="_blank" rel="noopener noreferrer" style={{ color: "cornflowerblue" }} >University of Auckland</a>, New Zealand.
                         </Description>
 
                         <Description>
@@ -23,7 +23,7 @@ const AboutMe = () => {
                         </Description>
 
                         <Description>
-                            I am passionate about integrating my expertise in software design, development and data analysis with solid leadership and culture-building skills. My goal is to contribute significantly to the success of the teams I engage with, leveraging a unique blend of technical proficiency and collaborative leadership to drive innovation and foster a positive work culture.
+                            My decision to pursue a career in Software Development and IT management stems from a profound interest in software engineering and a deep-seated respect for innovation. I find immense satisfaction in integrating my software design, development, and data analysis expertise with solid leadership and culture-building skills.
                         </Description>
 
                         <Description>

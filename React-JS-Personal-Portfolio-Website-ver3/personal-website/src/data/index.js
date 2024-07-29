@@ -195,18 +195,18 @@ export const projects = [
     {
         id: 0,
         title: "Full-Stack Football Booking Management System",
-        date: "June 2024 - July 2024",
+        date: "June 2024 - Aug 2024",
         description: "MERN project - Booking.Fooball",
         descriptionDetails: [
             "Developed a Full-Stack Football Booking Management System utilising React JS and the MERN stack (MongoDB, Express, React, and Node) stack",
+            "Feel free to try on the website as an administrator (email: admin@a.com, password: admin)",
+            "Admin can access the Administration Panel and can manage the current booking, courts, and users.",
+            "Implemented a persistent storage application for CRUD on the website (Create the court, Read the current booking, Update the court and Delete the court)",
             "Implemented routing & route-related data fetching with React Router",
-            "Built standalone React apps & applications connected to a backend via HTTP",
             "Facilitated the development of React applications with backend connectivity via HTTP and incorporated user authentication",
             "Payment Methods API (stripe JS)",
             "UI development (React Bootstrap, React Spinners, SweetAlert2)",
             "Deployment of the website by Render.com for both Frontend and Backend",
-            "Feel free to try on the website as an administrator (email: admin@a.com, password: admin)",
-            "Admin can access the Administration Panel and can manage the current booking, courts, and users. Also, Admin can add a new court for the website",
         ],
         img: "./img/football.booking.png",
         skills: [
@@ -379,7 +379,7 @@ export const projects = [
         date: "Jan 2023 - July 2023",
         description: "Become a Full-Stack Web Developer",
         descriptionDetails: [
-            "Become a Full-Stack Web Developer with HTML5, CSS3, Javascript, React JS, Node JS, Express JS, MongoDB, REST API, Git, Web3 and DApps."
+            "Completed an intensive Full-stack Web Development course, gaining proficiency in HTML/CSS/JavaScript/jQuery, NodeJS/ExpressJS, MongoDB, and ReactJS, and successfully built 16 web development projects"
         ],
         img: "./img/bootcamp-web development.png",
         skills: [
@@ -417,15 +417,15 @@ export const projects = [
         date: "Jul 2023 - Jan 2024",
         description: "React Component, React Router & Redux",
         descriptionDetails: [
-            "Learn React, Hooks, Redux, React Router, Next.js",
-            "Manage complex state efficiently with React's Context API & React Redux",
-            "Learn about routing & route-related data fetching with React Router",
-            "Build fullstack React apps with NextJS",
-            "Build multiple demo projects & explore realistic examples",
-            "Learn all about React Hooks and React Components",
-            "Build standalone React apps & applications connected to a backend via HTTP",
-            "Implement user authentication in React apps",
-            "Get started with React Unit Testing",
+            "Acquired proficiency in React, Hooks, Redux, React Router, and Next.js",
+            "Managed complex state efficiently with React’s Context API & React Redux",
+            "Gained knowledge about routing & route-related data fetching with React Router",
+            "Built Full-Stack React apps with NextJS",
+            "Developed multiple demo projects & explored realistic examples",
+            "Learned all about React Hooks and React Components",
+            "Constructed standalone React apps & applications connected to a backend via HTTP",
+            "Implemented user authentication in React apps",
+            "Initiated React Unit Testing",
         ],
         img: "./img/react-the-complete-guide-2023.png",
         skills: [
