@@ -1,8 +1,21 @@
 ## React JS - Personal Portfolio Website_V3
 
-<!-- Icon sections -->
+<p>Developed a personal website using ReactJS, featuring a responsive navigation bar, a contact form powered by EmailJS, and a project card animated with Framer Motion, all styled with Styled-Components and MUI libraries, including a Dark/Light theme toggle, and deployed seamlessly via Netlify’s CI/CD pipeline.
+</p>
 
-## Skills 💻
+## [Personal Portfolio Website](https://jeff-hwang.netlify.app/)
+
+- Enhanced development speed with intuitive React UI tools
+- Created Styled-components
+- Utilised MUI libraries, offering a comprehensive suite of free UI tools, to ship new features faster
+- Created and implemented a contact form in React using EmailJS
+- Developed theme customisation button features (Dark / Light)
+- Used Framer Motion animation library for the project card
+- Implemented font icons in React
+- Designed a responsive navigation bar
+- Deployed the [Website](https://jeff-hwang.netlify.app/) using Netlify
+
+## Technical Skills 💻
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/en/main)
@@ -12,23 +25,6 @@
 [![HTML5](https://img.shields.io/badge/-HTML5-F05032?style=for-the-badge&logo=html5&logoColor=ffffff)](https://html.com/)
 [![CSS3](https://img.shields.io/badge/-CSS3-007ACC?style=for-the-badge&logo=css3)](https://www.free-css.com/)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)](https://www.javascript.com/)
-
-<br>
-
-### [Personal Portfolio Website_V3](https://jeff-hwang.netlify.app/)
-
-Website Deployment by [netlify](https://www.netlify.com/)
-
-Learn:
-
-- How to implement font icons in React
-- How to create Styled-components
-- Move faster with intuitive React UI tools
-- MUI libraries offer a comprehensive suite of free UI tools to help you ship new features faster.
-- How to create and implement a contact form in React using EmailJS
-- Theme customisation button features (Dark / Light)
-- Responsive navigation bar
-- Framer Motion animation library for the project card
 
 <br>
 
